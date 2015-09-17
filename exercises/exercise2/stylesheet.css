@@ -1,13 +1,39 @@
 body {
-	background-color:pink;
+    background-color:#FF5252;
+    font-family:'Proxima N W01 Light';
+
+}
+img {
+	max-width: 100%;
 }
 .container {
-	padding:5px;
-	border:1px solid black;
-	height:auto;
-	width:800px;
-	margin:0 auto;
+	width: 600px;
+    background-color:white;
+    padding: 25px;
+    margin: 0 auto;	
+}
+#table-of-contents a {
+	color:lime;
+	background-color: black;
+	text-decoration: none;
+	transition-duration:.5s;
+	transition-timing-function:ease-out;
+}
+#table-of-contents a:hover {
+	color:white;
+	background-color:red;
+	transition-duration:.2s;
+	transition-timing-function:ease-in;
+}
+#table-of-contents li {
+	margin-bottom:0;
+}
+ul {
+	list-style-type:none;
+}
+li {
+	margin-bottom:1em;
 }
 h1 {
-	color:red;
+font-family:'Proxima N W01 Black';
 }

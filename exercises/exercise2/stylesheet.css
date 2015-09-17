@@ -9,13 +9,18 @@ font-family: 'Open Sans', sans-serif;
 }
 img {
 	max-width: 100%;
+	border:5px solid	 white;
+	padding:5px;
 }
 .container {
-	width: 900px;
+	max-width: 900px;
     /*background-color:white;*/
     padding: 25px;
     margin: 0 auto;	
-    border:4px solid white;
+    border:10px solid white;
+    /*border-top: 10px solid yellow;
+    border-bottom: 10px solid yellow;*/
+
 }
 #table-of-contents {
 	list-style: none;

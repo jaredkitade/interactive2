@@ -3,11 +3,15 @@ body {
 	line-height: 1.4em;
 	font-size: 14px;
 }
+a {
+	text-decoration: none;
+}
 h1 {
 	margin-top:0;
 	font-weight: normal;
 	text-transform: uppercase;
 	font-family:'Museo Sans W03_900';
+	color:;
 
 }
 h2 {
@@ -29,10 +33,7 @@ h3 {
 	margin:0 auto;
 	margin-top: 30px;
 }
-.variations {
-}
 .variations a {
-	text-decoration: none;
 	color:#BE3E3D;
 }
 .variations a:hover {

@@ -7,6 +7,9 @@ a {
 	text-decoration: none;
 	font-family:'Museo Sans W03_500';	
 }
+a:hover {
+	color:#FF675E;
+}
 h1 {
 	margin-top:0;
 	font-weight: normal;

@@ -23,6 +23,12 @@ h3 {
 
 	text-transform: capitalize;
 }
+.container {
+	width:500px;
+	height:auto;
+	margin:0 auto;
+	margin-top: 30px;
+}
 .variations {
 }
 .variations a {

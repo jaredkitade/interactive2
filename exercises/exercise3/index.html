@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project 2</title>
+  <meta charset="utf-8">
+  <style>
+  body {
+  	margin-top:0;
+  	margin-bottom:0;
+  	margin-left:0;
+  	margin-right:0;
+  }
+  #container {
+  	width:700px;
+  	height:auto;
+  	margin:0 auto;
+  }
+  #nav-bar {
+  	width:100%;
+  	height:45px;
+   	background-color: rgba(0,0,0,.75);
+   	top:0;
+   	right:0;
+   	left:0;
+   	position:absolute;
+   	z-index: -1;
+  }
+  .nav-pic {
+  	float:left;
+  	margin-right: 45px;
+  	background-color: white;
+  	height:20px;
+  	width:20px;
+  	border-radius: 50%;
+  	  	margin-top:10px;
+
+  }
+  .nav-text {
+  	float:left;
+  	margin-right:45px;
+  	color: white;
+  	height:20px;
+  	width:20px;
+  	margin-top:10px;
+/* background-color: lime;*/ 
+}
+#slideshow {
+	width:100%;
+	height:650px;
+	position:absolute;
+	z-index: -2;
+	background-color:#cccccc;
+	top:0;
+	left:0;
+	right:0;
+	display:block;
+}
+.clear {
+	clear:both;
+}
+#photo-container {
+	margin-top:650px;
+	left:0;
+	right:0;
+}
+.photo {
+	width:25%;
+	height:200px;
+	float:left;
+	background-color:#cccccc;
+	z-index:3;
+	margin-top:653px;
+	left:0;
+	right:0;
+}
+#red-cross {
+	width:510px;
+	height:50px;
+	margin:0 auto;
+	margin-top:3px;
+	text-align: center;
+	color:black;
+	background-color:#d1d3d4;
+}
+#note {
+	width:975px;
+	margin:0 auto;
+	text-align:left;
+	color:black;
+	margin-top: 3px;
+	background-color: #939598;
+}
+.column-container {
+	margin:0 auto;
+	width:975px;
+}
+.column {
+	height:215px;
+	width:192px;
+	float:left;
+	margin-right:3px;
+	background-color:#d1d3d4;
+	margin-top:3px;
+}
+.bottom {
+	float:left;
+	margin-right:30px;
+}
+  </style>
+</head>
+
+<body>
+	<div id="nav-bar">
+		<div id="container">
+			<span class="nav-pic"></span>
+			<span class="nav-text">...</span>
+			<span class="nav-text">...</span>
+			<span class="nav-text">...</span>
+			<span class="nav-text">...</span>
+			<span class="nav-text">...</span>
+			<span class="nav-text">...</span>
+			<span class="nav-text">...</span>
+			<span class="nav-pic"></span>
+			<span class="nav-pic" style="margin-right:0px;"></span>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="slideshow"></div>
+		<div class="photo" style="background-color:#D1D3D4;"></div>
+		<div class="photo" style="background-color:#A7A9AC"></div>
+		<div class="photo" style="background-color:#939598"></div>
+		<div class="photo" style="background-color:#D1D3D4"></div>
+		<div class="clear"></div>
+	<div id="red-cross">...</div>
+	<div id="note">...</div>
+	<div class="column-container">
+		<div class="column"></div>
+		<div class="column"></div>
+		<div class="column"></div>
+		<div class="column"></div>
+		<div class="column"></div>
+	</div>
+	<div class="column-container">
+		<div class="bottom">...</div>
+		<div class="bottom">...</div>
+		<div class="bottom">...</div>
+		<div class="bottom">...</div>
+		<div class="bottom">...</div>
+	</div>
+</body>
+
+</html>

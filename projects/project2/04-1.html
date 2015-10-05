@@ -6,21 +6,16 @@
   <meta charset='utf-8'>
   <script type='text/javascript' src='http://fast.fonts.net/jsapi/5ee5c80b-8b70-4e36-b4b6-7b78543ca5a0.js'></script>
 <style>
-body {
+h1, h2, h3, h4, h5, h6 {
+	margin-top:0;
+	font-weight: normal;
 }
+
 #lquote {
-	font-size: 200px;
-	letter-spacing: 1px;
-	position: absolute;
-	left:0;
-	top:0;
+	font-size: 15px;
 }
 #rquote {
-	font-size: 200px;
-	letter-spacing: 1px;
-	position: absolute;
-	left:17%;
-	top:0;
+	font-size: 15px;
 }
 #container {
 	width:auto;
@@ -28,25 +23,27 @@ body {
 
 }
 #title {
-	position:absolute;
-	left:6%;
+	position:fixed;
+	left:0;
 	top:0;
 	letter-spacing: -3px;
 	font-family:'Museo Sans W03_900';
 }
 #author {
-	position: absolute;
+	position: fixed;
 	right:1%;
 	bottom:1%;
 	font-family:'Museo Sans W03_500';
-	letter-spacing: -3px;
+	letter-spacing: -2px;
 }
 .absolute {
 	position: absolute;
 }
 #one {
-	left:20%;
-	top:1000px;
+	left:5px;
+	top:20%;
+	font-size: 50px;
+	font-family:'Museo Sans W03_900';
 }
 #two {
 	left:65%;
@@ -96,7 +93,7 @@ body {
 </head>
 <body>
 	<div id='container'>
-	<span id='lquote'>&ldquo;</span><h1 id='title'>If All the Skies</h1><span id='rquote'>&rdquo;</span>
+	<h1 id='title'><span id='lquote'>&ldquo;</span>&nbsp;&nbsp;If All the Skies&nbsp;&nbsp;<span id='rquote'>&rdquo;</span></h1>
 		<div id='author'>Henry Van Dyke</div>
 		
 			<div class='absolute' id='one'>If all the skies were sunshine,</div>

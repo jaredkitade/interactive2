@@ -2,62 +2,117 @@
 <html>
 
 <head>
-  <title>Level 4: Variation 2</title>
+  <title>5.3</title>
   <meta charset='utf-8'>
-  <script type='text/javascript' src='http://fast.fonts.net/jsapi/5ee5c80b-8b70-4e36-b4b6-7b78543ca5a0.js'></script>
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/7c2a8695-0f72-43a9-8873-ef11f970832e.js"></script>
 <style>
 body {
 	font-size:16px;
+	font-family:'Avenir Next W01 Light';
+	margin:0;
+	padding:0;
+	background-color: #183349;
 
 }
 h1, h2, h3, h4, h5, h6 {
 	margin-top:0;
 	font-weight: normal;
+	font-family:'Avenir Next LT W01 Bold';
+	color:#FFE669;
+
 }
-div {
-	margin-top: 25px;
+.spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 24s linear infinite;
+    -moz-animation:spin 24s linear infinite;
+    animation:spin 24s linear infinite;
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.width {
+	width:600px;
+	height:auto;
+	padding-left:80px;
 }
 #container {
+	position:absolute;
+	left:55%;
+	top:60%;
+	transform:translate(-50%,-50%);
 	padding:20px;
 	width:100%;
 	height:auto;	
 }
 #title {
-	position:fixed;
-	left:43%;
-	top:0;
-	letter-spacing: -2px;
-	text-align: center;
+	margin-top:20px;
+	margin-left:20px;
+	color:#FFE669;
 }
 #author {
-	position: fixed;
-	right:1%;
-	bottom:1%;
-	letter-spacing: -2px;
+		color:white;
+		margin-left: 33px;
+
 }
-#one {	
+#one {
+	color:white;	
 }
-#two {	
+#two {
+	animation-delay:2s;	
+	color:#FFF4BB;	
+
 }
 #three {
+	animation-delay:4s;	
+	color:#FFED92;	
 }
 #four {
+	animation-delay:6s;	
+
+	color:#FFE669;	
 }
 #five {
+	animation-delay:8s;	
+
+	color:#FFDF43;	
 }
 #six {
+	animation-delay:10s;	
+
+	color:#FFD527;	
 }
 #seven {
+
+	animation-delay:12s;	
+	color:#FFCE00;	
 }
 #eight {
+	animation-delay:14s;	
+	color:#FFD527;	
 }
 #nine {
+	animation-delay:16s;	
+	color:#FFDF43;	
 }
 #ten {
+	animation-delay:18s;	
+	color:#FFE669;	
 }
 #eleven {
+	animation-delay:20s;	
+	color:#FFED92;	
 }
 #twelve {
+	animation-delay:22s;	
+	color:#FFF4BB;	
 }
 </style>
 </head>
@@ -66,20 +121,20 @@ div {
 		<span id='lquote'>&ldquo;</span>If All the Skies<span id='rquote'>&rdquo;</span></h1>
 		<div id='author'>Henry Van Dyke</div>
 		<div id='container'>
-			<div id='one'>If all the skies were sunshine,</div>
-			<div id='two'>Our faces would be faint</div>
-			<div id='three'>To feel once more upon them</div>
-			<div id='four'>The cooling splash of rain.</div>
+			<div id='one' class='spin width'><strong>If all the skies were sunshine,</strong></div>
+			<div id='two' class='spin width'>Our faces would be faint</div>
+			<div id='three' class='spin width'>To feel once more upon them</div>
+			<div id='four' class='spin width'>The cooling splash of rain.</div>
 
-			<div id='five'>If all the world were music,</div>
-			<div id='six'>Our hearts would often long</div>
-			<div id='seven'>For one sweet strain of silence,</div>
-			<div id='eight'>To break the endless song.</div>
+			<div id='five' class='spin width'>If all the world were music,</div>
+			<div id='six' class='spin width'>Our hearts would often long</div>
+			<div id='seven' class='spin width'>For one sweet strain of silence,</div>
+			<div id='eight' class='spin width'>To break the endless song.</div>
 		
-			<div id='nine'>If life were always merry,</div>
-			<div id='ten'>Our souls would seek relief,</div>
-			<div id='eleven'>And rest from weary laughter</div>
-			<div id='twelve'>In the quiet arms of grief.</div>
+			<div id='nine' class='spin width'>If life were always merry,</div>
+			<div id='ten' class='spin width'>Our souls would seek relief,</div>
+			<div id='eleven' class='spin width'>And rest from weary laughter</div>
+			<div id='twelve' class='spin width'>In the quiet arms of grief.</div>
 		</div>
 </body>
 

@@ -3,84 +3,132 @@
 
 <head>
   <title>5.2</title>
-  <meta charset='utf-8'>
-	<script type="text/javascript" src="http://fast.fonts.net/jsapi/7c2a8695-0f72-43a9-8873-ef11f970832e.js"></script>
 <style>
 body {
-	font-size:16px;
-
-}
-h1, h2, h3, h4, h5, h6 {
-	margin-top:0;
-	font-weight: normal;
-}
-div {
-	margin-top: 25px;
+	background-color: black;
+	font-size: 14px;
+	letter-spacing: .5px;
 }
 #container {
-	padding:20px;
-	width:100%;
-	height:auto;	
+	width:auto;
 }
 #title {
 	position:fixed;
-	left:43%;
-	top:0;
-	letter-spacing: -2px;
-	text-align: center;
+	left:1%;
+	top:1%;
 }
 #author {
 	position: fixed;
 	right:1%;
 	bottom:1%;
-	letter-spacing: -2px;
 }
-#one {	
+.absolute {
+	position: absolute;
+	-webkit-animation:fade 1s ease-in-out infinite;
+	-moz-animation:fade 1s ease-in-out infinite;
+	animation:fade 1s ease-in-out infinite;
 }
-#two {	
+@-webkit-keyframes fade {
+	0% {color:black;}
+/*	25% {color:red;}
+*/	50% {color:red;}
+/*	75% {color:red;}
+*/    100% {color:black;}
 }
+#one {
+	left:300px;
+	top:300px;
+}
+#two {
+	left:350px;
+	top:311px;
+animation-delay:.1s;	
+	-webkit-animation-delay:.1s;	
+	-moz-animation-delay:.1s;}
 #three {
-}
+	left:400px;
+	top:322px;
+	animation-delay:.2s;	
+	-webkit-animation-delay:.2s;	
+	-moz-animation-delay:.2s;}
 #four {
-}
+	left:450px;
+	top:333px;
+	animation-delay:.3s;	
+	-webkit-animation-delay:.3s;	
+	-moz-animation-delay:.3s;}
 #five {
-}
+	left:500px;
+	top:344px;
+	animation-delay:.4s;	
+	-webkit-animation-delay:.4s;	
+	-moz-animation-delay:.4s;}
 #six {
-}
+	left:550px;
+	top:355px;
+	animation-delay:.5s;	
+	-webkit-animation-delay:.5s;	
+	-moz-animation-delay:.5s;}
 #seven {
-}
+	left:600px;
+	top:366px;
+	animation-delay:.6s;	
+	-webkit-animation-delay:.6s;	
+	-moz-animation-delay:.6s;}
 #eight {
-}
+	left:650px;
+	top:377px;
+	animation-delay:.7s;	
+	-webkit-animation-delay:.7s;	
+	-moz-animation-delay:.7s;}
 #nine {
-}
+	left:700px;
+	top:388px;
+	animation-delay:.8s;	
+	-webkit-animation-delay:.8s;	
+	-moz-animation-delay:.8s;}
 #ten {
-}
+	left:750px;
+	top:399px;
+	animation-delay:.9s;	
+	-webkit-animation-delay:.9s;	
+	-moz-animation-delay:.9s;}
 #eleven {
-}
+	left:800px;
+	top:410px;
+	animation-delay:1s;	
+	-webkit-animation-delay:1s;	
+	-moz-animation-delay:1s;}
 #twelve {
-}
+	left:850px;
+	top:421px;
+	animation-delay:1.1s;	
+	-webkit-animation-delay:1.1s;	
+	-moz-animation-delay:1.1s;}
 </style>
 </head>
-<body>
-	<h1 id='title'>
-		<span id='lquote'>&ldquo;</span>If All the Skies<span id='rquote'>&rdquo;</span></h1>
-		<div id='author'>Henry Van Dyke</div>
-		<div id='container'>
-			<div id='one'>If all the skies were sunshine,</div>
-			<div id='two'>Our faces would be faint</div>
-			<div id='three'>To feel once more upon them</div>
-			<div id='four'>The cooling splash of rain.</div>
 
-			<div id='five'>If all the world were music,</div>
-			<div id='six'>Our hearts would often long</div>
-			<div id='seven'>For one sweet strain of silence,</div>
-			<div id='eight'>To break the endless song.</div>
+<body>
+	<div id='container'>
+		<h1 class='absolute' id='title'>&ldquo;If All the Skies&rdquo;</h1>
+		<div class='absolute' id='author'>Henry Van Dyke</div>
 		
-			<div id='nine'>If life were always merry,</div>
-			<div id='ten'>Our souls would seek relief,</div>
-			<div id='eleven'>And rest from weary laughter</div>
-			<div id='twelve'>In the quiet arms of grief.</div>
-		</div>
+			<div class='absolute' id='one'>If all the skies were sunshine,</div>
+			<div class='absolute' id='two'>Our faces would be faint</div>
+			<div class='absolute' id='three'>To feel once more upon them</div>
+			<div class='absolute' id='four'>The cooling splash of rain.</div>
+		
+
+			<div class='absolute' id='five'>If all the world were music,</div>
+			<div class='absolute' id='six'>Our hearts would often long</div>
+			<div class='absolute' id='seven'>For one sweet strain of silence,</div>
+			<div class='absolute' id='eight'>To break the endless song.</div>
+		
+			<div class='absolute' id='nine'>If life were always merry,</div>
+			<div class='absolute' id='ten'>Our souls would seek relief,</div>
+			<div class='absolute' id='eleven'>And rest from weary laughter</div>
+			<div class='absolute' id='twelve'>In the quiet arms of grief.</div>
+	</div>	
 </body>
 
 </html>

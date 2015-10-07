@@ -4,15 +4,18 @@
 <head>
   <title>5.4</title>
   <meta charset='utf-8'>
-  <script type='text/javascript' src='http://fast.fonts.net/jsapi/5ee5c80b-8b70-4e36-b4b6-7b78543ca5a0.js'></script>
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/7c2a8695-0f72-43a9-8873-ef11f970832e.js"></script>
 <style>
 body {
-	font-size:16px;
-
+	font-size:20px;
+	font-family:'Avenir Next W01 Light';
 }
 h1, h2, h3, h4, h5, h6 {
 	margin-top:0;
 	font-weight: normal;
+	font-size: 35px;
+	font-family:'Avenir Next LT W01 Bold';
+
 }
 div {
 	margin-top: 25px;
@@ -35,29 +38,73 @@ div {
 	bottom:1%;
 	letter-spacing: -2px;
 }
-#one {	
+#one {
 }
-#two {	
+#two {
+	animation-delay:1s;
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
 }
 #three {
+	animation-delay:2s;
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
 }
 #four {
+	animation-delay:3s;
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
 }
 #five {
+	animation-delay:4s;
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
 }
 #six {
+	animation-delay:5s;
+	-webkit-animation-delay:5s;
+	-moz-animation-delay:5s;
 }
 #seven {
+	animation-delay:6s;
+	-webkit-animation-delay:6s;
+	-moz-animation-delay:6s;
 }
 #eight {
+	animation-delay:7s;
+	-webkit-animation-delay:7s;
+	-moz-animation-delay:7s;
 }
 #nine {
+	animation-delay:8s;
+	-webkit-animation-delay:8s;
+	-moz-animation-delay:8s;
 }
 #ten {
+	animation-delay:9s;
+	-webkit-animation-delay:9s;
+	-moz-animation-delay:9s;
 }
 #eleven {
+	animation-delay:10s;
+	-webkit-animation-delay:10s;
+	-moz-animation-delay:10s;
 }
 #twelve {
+	animation-delay:11s;
+	-webkit-animation-delay:11s;
+	-moz-animation-delay:11s;
+}
+.text {
+	text-align: center;
+    -webkit-animation: pulsate 5s ease-in-out infinite;
+    -moz-animation:pulsate 5s ease-in-out infinite;
+    animation:pulsate 5s ease-in-out infinite;
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(1, 1);}
+    50% {-webkit-transform: scale(.1, .1);}
+    100% {-webkit-transform: scale(1, 1);}
 }
 </style>
 </head>
@@ -66,20 +113,20 @@ div {
 		<span id='lquote'>&ldquo;</span>If All the Skies<span id='rquote'>&rdquo;</span></h1>
 		<div id='author'>Henry Van Dyke</div>
 		<div id='container'>
-			<div id='one'>If all the skies were sunshine,</div>
-			<div id='two'>Our faces would be faint</div>
-			<div id='three'>To feel once more upon them</div>
-			<div id='four'>The cooling splash of rain.</div>
+			<div class='text' id='one'>If all the skies were sunshine,</div>
+			<div class='text' id='two'>Our faces would be faint</div>
+			<div class='text' id='three'>To feel once more upon them</div>
+			<div class='text' id='four'>The cooling splash of rain.</div>
 
-			<div id='five'>If all the world were music,</div>
-			<div id='six'>Our hearts would often long</div>
-			<div id='seven'>For one sweet strain of silence,</div>
-			<div id='eight'>To break the endless song.</div>
+			<div class='text' id='five'>If all the world were music,</div>
+			<div class='text' id='six'>Our hearts would often long</div>
+			<div class='text' id='seven'>For one sweet strain of silence,</div>
+			<div class='text' id='eight'>To break the endless song.</div>
 		
-			<div id='nine'>If life were always merry,</div>
-			<div id='ten'>Our souls would seek relief,</div>
-			<div id='eleven'>And rest from weary laughter</div>
-			<div id='twelve'>In the quiet arms of grief.</div>
+			<div class='text' id='nine'>If life were always merry,</div>
+			<div class='text' id='ten'>Our souls would seek relief,</div>
+			<div class='text' id='eleven'>And rest from weary laughter</div>
+			<div class='text' id='twelve'>In the quiet arms of grief.</div>
 		</div>
 </body>
 

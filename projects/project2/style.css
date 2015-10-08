@@ -37,10 +37,13 @@ h1 {
 	font-family:'Avenir Next LT W01 Bold';
 }
 h2 {
+	font-family:'AvenirNextLTW01-Medium';
 
 }
 h3 {
 	text-transform: capitalize;
+	font-family:'AvenirNextLTW01-Medium';
+
 }
 .container {
 	position:absolute;

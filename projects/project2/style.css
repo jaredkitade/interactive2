@@ -1,7 +1,8 @@
 body {
 	font-family:'Museo Sans W03_100';
 	line-height: 1.4em;
-	font-size: 14px;
+	font-size: 16px;
+	letter-spacing: .5px;
 }
 a {
 	text-decoration: none;
@@ -13,29 +14,35 @@ a:visited {
 a:hover {
 	color:#FF675E;
 }
-h1 {
+.levels {
+	list-style:none;
+}
+.float {
+	float:left;
+	margin-right:20px;
+}
+#var {
+	width:800px;
+	margin:0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
 	margin-top:0;
-	font-weight: normal;
-	text-transform: uppercase;
+	font-weight: normal;		
 	font-family:'Museo Sans W03_900';
+}
+h1 {
+	text-transform: uppercase;
 	color:;
 
 }
 h2 {
-	margin-top:0;
-	font-weight: normal;
-	font-family:'Museo Sans W03_500';
 
 }
 h3 {
-	margin-top:0;
-	font-weight: normal;
-	font-family:'Museo Sans W03_500';
-
 	text-transform: capitalize;
 }
 .container {
-	width:450px;
+	width:600px;
 	height:auto;
 	margin:0 auto;
 	margin-top: 30px;

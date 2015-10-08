@@ -28,7 +28,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	margin-top:0;
 	font-weight: normal;		
-	font-family:'Museo Sans W03_900';
+	font-family:'Museo Sans W03_500';
 }
 h1 {
 	text-transform: uppercase;
@@ -42,10 +42,13 @@ h3 {
 	text-transform: capitalize;
 }
 .container {
+	position:absolute;
+	top:35%;
+	left:50%;
+	transform:translate(-50%,-50%);
 	width:600px;
 	height:auto;
-	margin:0 auto;
-	margin-top: 30px;
+/*	margin-top: 30px;*/
 }
 .variations a {
 	color:#BE3E3D;

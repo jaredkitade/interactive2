@@ -20,7 +20,7 @@ a:hover {
 }
 .float {
 	float:left;
-	margin-right:20px;
+	margin-right:30px;
 }
 #var {
 	width:800px;
@@ -95,4 +95,20 @@ h3 {
 }
 .variations a:hover {
 	color:#FF675E;
+}
+.nav {
+	position:fixed;
+	background-color: rgba(0,0,0,.8);
+	color:white;
+	padding:5px;
+	list-style: none;
+	width:100%;
+}
+.nav li {
+	float:left;
+	margin-right:10px;
+	text-decoration: none;
+}
+.nav a {
+
 }

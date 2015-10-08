@@ -9,11 +9,14 @@ a {
 	font-family:'AvenirNextLTW01-Medium';
 
 }
-a:visited {
+a:link {
 	color:black;
 }
 a:hover {
 	color:#FF675E;
+}
+a:visited {
+	color:#33CC99;
 }
 .levels {
 	list-style:none;
@@ -93,6 +96,6 @@ h3 {
 .variations a {
 	color:#BE3E3D;
 }
-/*.variations a:hover {
+.variations a:hover {
 	color:#FF675E;
-}*/
+}

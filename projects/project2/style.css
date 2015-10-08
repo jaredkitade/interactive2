@@ -46,13 +46,10 @@ h3 {
 
 }
 .container {
-/*	position:absolute;
-	top:45%;
-	left:50%;
-	transform:translate(-50%,-50%);*/
 	width:600px;
 	height:auto;
-	margin-top: 30px;
+	padding-top: 35px;
+	margin:0 auto;
 }
 .variations a {
 	color:#BE3E3D;

@@ -15,9 +15,6 @@ a:link {
 a:hover {
 	color:#FF675E;
 }
-a:visited {
-	color:#33CC99;
-}
 .levels {
 	list-style:none;
 }
@@ -76,7 +73,7 @@ h3 {
 
 }
 #five a:hover {
-	background-color:;
+	background-color:white;
 	-webkit-transition:pulse 2s pulsate infinite;
 	-moz-transition:pulse 2s pulsate infinite;
 	transition:pulse 2s pulsate infinite;

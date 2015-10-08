@@ -45,6 +45,45 @@ h3 {
 	font-family:'AvenirNextLTW01-Medium';
 
 }
+#one {
+
+}
+#one a:hover {
+
+}
+#two {
+
+}
+#two a:hover {
+
+}
+#three {
+
+}
+#three a:hover {
+
+}
+#four {
+
+}
+#four a:hover {
+
+}
+#five {
+
+}
+#five a:hover {
+	background-color:;
+	-webkit-transition:pulse 2s pulsate infinite;
+	-moz-transition:pulse 2s pulsate infinite;
+	transition:pulse 2s pulsate infinite;
+}
+@keyframes pulse {
+	0% {background-color: white;}
+	20% {background-color: #33CCCC;}
+	80% {background-color: #FF3333;}
+	100% {background-color: white;}
+}
 .container {
 	width:600px;
 	height:auto;
@@ -54,6 +93,6 @@ h3 {
 .variations a {
 	color:#BE3E3D;
 }
-.variations a:hover {
+/*.variations a:hover {
 	color:#FF675E;
-}
+}*/

@@ -1,13 +1,13 @@
 body {
-	font-family:'Avenir Next W01 Light';
-	line-height: 1.4em;
+/*	font-family:'Avenir Next W01 Light';
+*/	line-height: 1.4em;
 	font-size: 16px;
 	letter-spacing: .5px;
 }
 a {
 	text-decoration: none;
-	font-family:'AvenirNextLTW01-Medium';
-
+/*	font-family:'AvenirNextLTW01-Medium';
+*/
 }
 a:link {
 	color:#BE3E3D;
@@ -65,37 +65,5 @@ h3 {
 	color:#BE3E3D;
 }
 .variations a:hover {
-	color:#FF675E;
-}
-.nav {
-	display: table;
-	vertical-align: middle;
-	position:fixed;
-	background-color: rgba(0,0,0,.8);
-	color:white;
-	padding:5px 10px;
-	list-style: none;
-/*	width:100%;
-*/	left:0%;
-	bottom:0%;
-	text-align: center;
-	font-family:'Avenir Next W01 Light';
-	font-size: 16px;
-
-}
-.nav li {
-	float:left;
-	margin-right:15px;
-	text-decoration: none;
-	list-style: none;
-	text-align: center;
-}
-.nav a {
-	color:white;
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-}
-.nav a:hover {
 	color:#FF675E;
 }

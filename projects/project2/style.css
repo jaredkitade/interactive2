@@ -69,7 +69,7 @@ h3 {
 }
 .nav {
 	display: table;
-	vertical-align: center;
+	vertical-align: middle;
 	position:fixed;
 	background-color: rgba(0,0,0,.8);
 	color:white;
@@ -91,6 +91,7 @@ h3 {
 	color:white;
 	display: table-cell;
 	text-align: center;
+	vertical-align: middle;
 }
 .nav a:hover {
 	color:#FF675E;

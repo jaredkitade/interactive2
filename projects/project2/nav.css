@@ -6,12 +6,16 @@
 	color:white;
 	padding:5px 10px;
 	list-style: none;
+	text-decoration: none;
 /*	width:100%;
 */	left:0%;
 	bottom:0%;
 	text-align: center;
 	font-family:'Avenir Next W01 Light';
 	font-size: 16px;
+	animation:none;
+	line-height: 1.2px;
+	letter-spacing: 0;
 
 }
 .nav li {

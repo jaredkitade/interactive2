@@ -1,0 +1,275 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+.canvas.one {
+	background:#da9618;
+}
+/*-------------------------------------------Sphere*/
+
+.sphere {
+	background: white;
+	height:302px;
+	width:302px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index: 2;
+}
+.object {
+	position:absolute;
+}
+/*-------------------------------------------pumpkin*/
+.pumpkin {
+	background: orange;
+	height:130px;
+	width:130px;
+	border-radius: 40%;
+	bottom:30%;
+	left:30%;
+	z-index:1;
+
+}
+/*-------------------------------------------glass*/
+.glass-container {
+	height:200px;
+	width:100px;
+	left:10%;
+	right:200px;
+	bottom:140px;
+	z-index: 3;
+}
+.glass-container .glass {
+	/*background-color:yellow;
+	width:100px;
+	height:0;
+	border-bottom:100px solid purple;
+	border-left:8px solid transparent;
+	border-right:8px solid transparent
+	bottom:5%;
+	left:10%;*/
+	height:200px;
+	width:100px;
+	background:white;
+	opacity:0.5;
+	top:-12px;
+	z-index: 4;
+}
+.glass-container .top {
+	border-radius:50%;
+	background:#da9618;
+	height:25px;
+	width:100px;
+	top: -23px;
+	border:1px solid white;
+	z-index: 5;
+}
+.glass-container .bottom {
+	height:25px;
+	width:100px;
+	background:white;
+/*	opacity:.5;
+*/	bottom:0px;
+	border-radius: 50%;	
+	z-index: 6;
+}
+.glass-container .watertop {
+	width:100%;
+	height:25px;
+	border-radius:50%;
+	background:white;
+	bottom:50%;
+	z-index:8;
+}
+.glass-container .water {
+	width:100%;
+	height:50%;
+/*	border-radius: 50%;
+*/	background:white;
+	bottom:12px;
+	opacity:.5;
+	z-index: 7;
+}
+/*-------------------------------------------Canvas Two*/
+.canvas.two {
+	background: #da9618;
+}
+.canvas.two .pumpkin {
+	left:200px;
+	top:300px;
+	background:orange;
+	z-index:9000;
+}
+/*-------------------------------------------Vase*/
+.vase-container {
+	height:250px;
+	width:75px;
+	left:270px;
+	top:150px;
+		border-top-left-radius: 30%;
+	border-top-right-radius: 30%;
+}
+.vase-container .vase {
+	background:white;
+	height:250px;
+	width:75px;
+	opacity:.3;
+	z-index:88;
+	border-top-left-radius: 30%;
+	border-top-right-radius: 30%;
+}
+.vase-container .top {
+	border-radius:50%;
+/*	background:#da9618;
+*/	height:25px;
+	left:13px;
+	width:65%;
+	top: -2px;
+	border:1px solid white;
+	z-index: 89;
+}
+.vase-container .watertop {
+	width:100%;
+	height:25px;
+	border-radius:50%;
+	background:white;
+	bottom:70%;
+	z-index:1;
+}
+.vase-container .water {
+		width:100%;
+	height:75%;
+/*	border-radius: 50%;
+*/	background:white;
+	bottom:0px;
+	opacity:.7;
+	z-index: 7;
+}
+.vase-container .bottom {
+		height:25px;
+	width:75px;
+	background:white;
+/*	opacity:.5;
+*/	bottom:-10px;
+	border-radius: 50%;	
+	z-index: 6;
+}
+/*-------------------------------------------flower*/
+.stem {
+	border:3px solid green;
+	height:350px;
+	top:50px;
+	z-index:87;
+}
+.s-one {
+	left:275px;
+}
+.s-two {
+	left:290px;
+}
+.s-three {
+	left:305px;
+}
+.s-four {
+	left:320px;
+}
+.s-five {
+	left:335px;
+}
+.space-invader{
+
+  box-shadow:
+    0 0 0 1em purple,
+    0 1em 0 1em purple,
+    -2.5em 1.5em 0 .5em purple,
+    2.5em 1.5em 0 .5em purple,
+    -3em -3em 0 0 purple,
+    3em -3em 0 0 purple,
+    -2em -2em 0 0 purple,
+    2em -2em 0 0 purple,
+    -3em -1em 0 0 purple,
+    -2em -1em 0 0 purple,
+    2em -1em 0 0 purple,
+    3em -1em 0 0 purple,
+    -4em 0 0 0 purple,
+    -3em 0 0 0 purple,
+    3em 0 0 0 purple,
+    4em 0 0 0 purple,
+    -5em 1em 0 0 purple,
+    -4em 1em 0 0 purple,
+    4em 1em 0 0 purple,
+    5em 1em 0 0 purple,
+    -5em 2em 0 0 purple,
+    5em 2em 0 0 purple,
+    -5em 3em 0 0 purple,
+    -3em 3em 0 0 purple,
+    3em 3em 0 0 purple,
+    5em 3em 0 0 purple,
+    -2em 4em 0 0 purple,
+    -1em 4em 0 0 purple,
+    1em 4em 0 0 purple,
+    2em 4em 0 0 purple;
+
+    background: purple;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 0 70px 65px;
+  }
+  .flower {
+  	left:235px;
+  	z-index: 9999;
+  }
+/*-------------------------------------------magnifying glass*/
+.mag {
+	width:100px;
+	height:30px;
+	left:300px;
+	top:410px;
+	border:8px solid black;
+	background:white;
+	border-radius:50%;
+	z-index:50000;
+}
+.mag-bottom {
+	width:100px;
+	height:30px;
+	left:300px;
+	top:418px;
+	background: black;
+	border-radius: 30%;
+}
+.handle {
+	background-color: black;
+	width:100px;
+	height:12px;
+	left:380px;
+	top:425px;
+	border-radius: 30%;
+	z-index: 20;
+}
+/*-------------------------------------------eraser*/
+.eraser {
+	background-color:gray;
+	width:75px;
+	height:50px;
+	left:450px;
+	top:380px;
+	z-index: 19;
+}
+

@@ -60,6 +60,9 @@ h3 {
 	padding-top: 35px;
 	margin:0 auto;
 }
+.variations {
+	list-style: none;
+}
 .variations a {
 	color:#BE3E3D;
 }

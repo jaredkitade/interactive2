@@ -1,13 +1,13 @@
 body {
-/*	font-family:'Avenir Next W01 Light';
-*/	line-height: 1.4em;
+	font-family:'Avenir Next W01 Light';
+	line-height: 1.4em;
 	font-size: 16px;
 	letter-spacing: .5px;
 }
 a {
 	text-decoration: none;
-/*	font-family:'AvenirNextLTW01-Medium';
-*/
+	font-family:'AvenirNextLTW01-Medium';
+
 }
 a:link {
 	color:#BE3E3D;

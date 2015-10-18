@@ -6,9 +6,8 @@ body {
 }
 a {
 	text-decoration: none;
-	font-family:'AvenirNextLTW01-Medium';
-
-}
+/*	font-family:'AvenirNextLTW01-Medium';
+*/}
 a:link {
 	color:#BE3E3D;
 }

@@ -1,0 +1,80 @@
+* {
+	box-sizing:border-box;
+}
+
+.letter {
+	width:300px;
+	height:450px;
+/*	background: lime;
+	float:left;*/
+	margin-right:8px;
+	display:inline-block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+	position:relative;
+}
+.h .v1, .d .v1, .p .v1, .n .v1 {
+	position:absolute;
+	height:100%;
+	width:6px;
+	left:0;
+	background: black;
+	margin:0 8px 8px 0;
+}
+.h .v2, .n .v2 {
+	position:absolute;
+	height:100%;
+	width:6px;
+	right:0;
+	background: black;
+	margin:0 0 8px 8px;
+}
+.h .h1 {
+	position:absolute;
+	width:100%;
+	top:50%;
+	height:6px;
+	background: black;
+}
+.o .c1 {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	border:6px solid black;
+	border-radius: 50%;
+}
+.d .c1{
+	border:6px solid black;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius:50%;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+}
+.p .c1 {
+	height:225px;
+	width:100%;
+	position: absolute;
+	border:6px solid black;
+	top:0;
+	right:0;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius:50%;
+}
+.n .d1 {
+	position:absolute;
+	left:5px;
+	height:6px;
+	width:535px;
+	background: black;
+	transform:rotate(56.6deg);
+	-webkit-transform:rotate(56.6deg);
+	-moz-transform:rotate(56.6deg);
+	transform-origin:0% 0%;
+	-webkit-transform-origin:0% 0%;
+	-moz-transform-origin:0% 0%;
+}

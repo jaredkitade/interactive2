@@ -1,0 +1,70 @@
+body { 
+	background: red;
+	font-family: 'Helvetica';
+	font-size: 72px; 
+	color:white;
+}
+#box {
+	width:500px;
+	height:240px;
+	background-color: #24febb;
+}
+#text {
+	width:500px;
+	height:auto;
+}
+
+@media screen and (max-width: 1024px) {
+  body { 
+  	background: blue;
+  	color:cyan;
+  	font-family: 'Futura';
+  	font-size: 50px;
+  }
+  #box {
+	width:500px;
+	height:240px;
+	background-color: cyan;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  body { 
+  	background: cyan; 
+  	color:red;
+  	font-family: 'Gill Sans';
+  	font-size: 120px;
+  }
+  #box {
+	width:500px;
+	height:240px;
+	background-color: green;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  body { 
+  	background: yellow; 
+  	color:blue;
+  	font-family: 'Garamond';
+  	font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body { 
+  	background: green; 
+  	color:red;
+  	font-family: cursive;
+  	font-size: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body { 
+  	background: magenta;
+  	font-family: 'Lucida Sans'; 
+  }
+}

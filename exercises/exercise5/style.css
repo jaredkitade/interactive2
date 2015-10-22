@@ -1,4 +1,7 @@
-body { 
+* {
+  box-sizing: border-box;
+}
+  body { 
 	background: red;
 	font-family: 'Helvetica';
 	font-size: 30px; 
@@ -11,6 +14,7 @@ body {
 	display:table-cell;
 	text-align: center;
 	vertical-align: middle;
+  border:15px inset lime;
 
 }
 .text {

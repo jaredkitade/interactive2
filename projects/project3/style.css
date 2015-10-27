@@ -32,7 +32,7 @@ img {
 	display:inline-block;
 	position: relative;
 }
-.a .v1, .b .v1, .d .v1, .g .v1, .c .v1, .f .v1, .k .v1{
+.a .v1, .b .v1, .d .v1, .g .v1, .c .v1, .f .v1, .k .v1, .m .v1, .n .v1, .p .v1, .r .v1, .v .v1, .w .v1{
 	width:30px;
 	height:200px;
 	background-color: black;
@@ -40,7 +40,7 @@ img {
 	left:0;
 	bottom:0;
 }
-.a .v2, .b .v2, .d .v2, .g .v2, .e .v2, .c .v2, .f .v2, .k .v2{
+.a .v2, .b .v2, .d .v2, .g .v2, .e .v2, .c .v2, .f .v2, .k .v2, .m .v2, .n .v2, .o .v2, .p .v2, .q .v2, .r .v2, .v .v2, .w .v2{
 	width:30px;
 	height:240px;
 	background-color: black;
@@ -48,7 +48,7 @@ img {
 	left:60px;
 	bottom:0;
 }
-.a .v3 {
+.a .v3, .o .v3, .q .v3{
 	width:30px;
 	height:200px;
 	background-color: black;
@@ -64,7 +64,7 @@ img {
 	top:0;
 	left:60px;
 }
-.a .h2, .b .h2, .p .h2{
+.a .h2, .b .h2, .p .h3{
 	width:120px;
 	height:40px;
 	position: absolute;
@@ -72,7 +72,7 @@ img {
 	top:120px;
 	left:60px;
 }
-.a .h3, .f .h3{
+.a .h3, .f .h3 {
 	width:90px;
 	height:40px;
 	position: absolute;
@@ -101,7 +101,7 @@ img {
 	top:120px;
 	background: black;
 }
-.b .h1, .d .h1, .g .h1 {
+.b .h1, .d .h1, .g .h1, .i .h1, .p .h1, .z .h1 {
 	width:180px;
 	height:40px;
 	position: absolute;
@@ -121,7 +121,7 @@ img {
 #c {
 	background: url('images/c-hand.jpg')
 }
-.c .h1, .f .h1 {
+.c .h1, .f .h1, .r .h1 {
 	width:210px;
 	height:40px;
 	position: absolute;
@@ -137,7 +137,7 @@ img {
 	top: 0;
 	left: 180px;
 }
-.c .v4 {
+.c .v4, .r .v4 {
 	width:30px;
 	height:120px;
 	background-color: black;
@@ -173,7 +173,7 @@ img {
 	left:180px;
 	top:160px;
 }
-.d .h3 {
+.d .h3, .s .h2 {
 	width:180px;
 	height:40px;
 	position: absolute;
@@ -201,7 +201,7 @@ img {
 	top:0;
 	left:60px;
 }
-.e .h2, .f .h2, .k .h3, .r .h2 {
+.e .h2, .f .h2, .k .h3, .r .h3 {
 	width:120px;
 	height:40px;
 	position: absolute;
@@ -321,14 +321,6 @@ img {
 	position: absolute;
 	left:120px;
 	bottom:0;
-}
-.i .h1 {
-	width: 180px;
-	height:40px;
-	background-color: black;
-	position: absolute;
-	left: 0;
-	top:0;
 }
 .i .h2 {
 	width: 180px;
@@ -455,8 +447,132 @@ img {
 	bottom:0;
 }
 /*------------------------------------------------------LETTER M*/
+#m {
+	background: url('images/m-hand.jpg')
+}
+.m .v3, .n .v3 {
+	width:30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:90px;
+	top:40px;
+}
+.m .v4, .n .v4 {
+	width:30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:120px;
+	top:80px;
+}
+.m .v5 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left:150px;
+	top:0px;
+}
+.m .v6 {
+	width:30px;
+	height:200px;
+	background-color: black;
+	position: absolute;
+	left:240px;
+	bottom:0px;
+}
+.m .h3 {
+	width:90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:150px;
+	top:0px;
+}
+/*------------------------------------------------------LETTER N*/
 #n {
 	background: url('images/n-hand.jpg')
+}
+.n .v5 {
+	width:30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:150px;
+	top:120px;
+}
+.n .v6 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left:180px;
+	top:0px;
+}
+/*------------------------------------------------------LETTER O*/
+#o {
+	background: url('images/o-hand.jpg')
+}
+.o .v1, .q .v1 {
+	width:30px;
+	height:160px;
+	background-color: black;
+	position: absolute;
+	left:0;
+	bottom:40px;
+}
+.o .h1, .q .h1{
+	width:180px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:30px;
+	top:0;
+}
+.o .h2 {
+	width:180px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:30px;
+	bottom:0;
+}
+/*------------------------------------------------------LETTER P*/
+#p {
+	background: url('images/p-hand.jpg')
+}
+.p .v3 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left:180px;
+	top:40px;
+}
+/*------------------------------------------------------LETTER Q*/
+#q {
+	background: url('images/q-hand.jpg')
+}
+.q .h2 {
+	width:240px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:30px;
+	bottom:0;
+}
+.q .h3 {
+	width:30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:150px;
+	bottom:40px;
+}
+/*------------------------------------------------------LETTER R*/
+#r {
+	background: url('images/r-hand.jpg')
 }
 /*.letter {
 	width:300px;

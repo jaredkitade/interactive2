@@ -386,7 +386,7 @@ img {
 #k {
 	background: url('images/k-hand.jpg')
 }
-.k .h1, .l .h1, .m .h1, .n .h1, .w .h1, .x .h1, .y .h1, {
+.k .h1, .l .h1, .m .h1, .n .h1, .w .h1, .x .h1, .y .h1 {
 	width: 90px;
 	height:40px;
 	background-color: black;

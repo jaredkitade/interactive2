@@ -1,12 +1,220 @@
 * {
 	box-sizing:border-box;
 }
+img {
+	height:240px;
+	width:auto;
+}
+.hand {
+	height:240px;
+	width:auto;
+	display:inline-block;
+	margin-right: 50px;
+}
+.overlay {
+	opacity:0;
+	background:white;
+	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+}
+.hand:hover .overlay {
+	opacity:1;
+}
+/*------------------------------------------------------A*/
 
+#a {
+	background: url('images/a-hand.jpg');
+}
 .letter {
+	width:210px;
+	height:240px;
+/*	background-color: lime;
+*/	display:inline-block;
+	position: relative;
+}
+.a .v1, .b .v1, .d .v1, .g .v1 {
+	width:30px;
+	height:200px;
+	background-color: black;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+.a .v2, .b .v2, .d .v2, .g .v2, .e .v2 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left:60px;
+	bottom:0;
+}
+.a .v3 {
+	width:30px;
+	height:200px;
+	background-color: black;
+	position: absolute;
+	right:0;
+	bottom:0;
+}
+.a .h1 {
+	width:120px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:0;
+	left:60px;
+}
+.a .h2, .b .h2{
+	width:120px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:120px;
+	left:60px;
+}
+.a .h3 {
+	width:90px;
+	height:40px;
+	position: absolute;
+	background: black;
+	bottom:0px;
+	left:0px;
+}
+/*------------------------------------------------------B*/
+
+#b {
+	background: url('images/b-hand.jpg');
+}
+.b .v3 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	right:0;
+	top:40px;
+}
+.b .v4 {
+	width:30px;
+	height:80px;
+	position: absolute;
+	left:210px;
+	top:120px;
+	background: black;
+}
+.b .h1, .d .h1, .g .h1 {
+	width:180px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:0;
+	left:0px;
+}
+.b .h3, .e .h3 {
+	width:210px;
+	height:40px;
+	position: absolute;
+	background: black;
+	bottom:0;
+	left:0;
+}
+/*------------------------------------------------------D*/
+#d {
+	background: url('images/d-hand.jpg')
+}
+.d .v3 {
+	width:30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:180px;
+	top:40px;
+}
+.d .v4 {
+	width:30px;
+	height:80px;
+	background-color: black;
+	position: absolute;
+	left:210px;
+	top:80px;
+}
+.d .v5 {
+	width:30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left:180px;
+	top:160px;
+}
+.d .h3 {
+	width:180px;
+	height:40px;
+	position: absolute;
+	background: black;
+	bottom:0;
+	left:0px;
+}
+/*------------------------------------------------------D*/
+#g {
+	background: url('images/g-hand.jpg')
+}
+.g .h2 {
+	width:80px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:120px;
+	right:0;
+}
+.g .h3 {
+	width:240px;
+	height:40px;
+	position: absolute;
+	background: black;
+	bottom:0;
+	left:0px;
+}
+.g .v3 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left:210px;
+	bottom:0;
+}
+/*------------------------------------------------------D*/
+#e {
+	background: url('images/e-hand.jpg')
+}
+.e .v1{
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left:0;
+	bottom:0;
+}
+.e .h1 {
+	width:90px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:0;
+	left:60px;
+}
+.e .h2 {
+	width:120px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:120px;
+	left:60px;
+}
+/*.letter {
 	width:300px;
 	height:450px;
-/*	background: lime;
-	float:left;*/
+	background: lime;
+	float:left;
 	margin-right:8px;
 	display:inline-block;
 	vertical-align: middle;
@@ -77,4 +285,4 @@
 	transform-origin:0% 0%;
 	-webkit-transform-origin:0% 0%;
 	-moz-transform-origin:0% 0%;
-}
+}*/

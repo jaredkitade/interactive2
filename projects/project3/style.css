@@ -1,6 +1,11 @@
 * {
 	box-sizing:border-box;
 }
+div {
+/*	-webkit-transform:scale(.5,.5);
+	-moz-transform:scale(.5,.5);
+	transform:scale(.5,.5);*/
+}
 img {
 	height:240px;
 	width:auto;
@@ -10,6 +15,7 @@ img {
 	width:auto;
 	display:inline-block;
 	margin-right: 50px;
+	margin-bottom: 50px;
 }
 .overlay {
 	opacity:0;
@@ -109,7 +115,7 @@ img {
 	top:0;
 	left:0px;
 }
-.b .h3, .e .h3 {
+.b .h3, .e .h3, .u .h2 {
 	width:210px;
 	height:40px;
 	position: absolute;
@@ -334,7 +340,7 @@ img {
 #j {
 	background: url('images/j-hand.jpg')
 }
-.j .v1 {
+.j .v1, .s .v1 {
 	width: 30px;
 	height:80px;
 	background-color: black;
@@ -378,7 +384,7 @@ img {
 #k {
 	background: url('images/k-hand.jpg')
 }
-.k .h1, .l .h1, .m .h1, .n .h1, .w .h1, .x .h1, .y .h1 {
+.k .h1, .l .h1, .m .h1, .n .h1, .v .h1, .w .h1, .x .h1, .y .h1 {
 	width: 90px;
 	height:40px;
 	background-color: black;
@@ -573,6 +579,439 @@ img {
 /*------------------------------------------------------LETTER R*/
 #r {
 	background: url('images/r-hand.jpg')
+}
+/*------------------------------------------------------LETTER S*/
+#s {
+	background: url('images/s-hand.jpg')
+}
+.s .v2 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 90px;
+	bottom:0;
+}
+.s .v3 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 150px;
+	bottom:0;
+}
+.s .v4 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 60px;
+	top:0;
+}
+.s .v5 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 120px;
+	top:0;
+}
+.s .v6, .t .v4 {
+	width:30px;
+	height:80px;
+	background-color: black;
+	position: absolute;
+	left: 210px;
+	top:0;
+}
+.s .h1 {
+	width:180px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:0;
+	left:60px;
+}
+/*------------------------------------------------------LETTER T*/
+#t {
+	background: url('images/t-hand.jpg')
+}
+.t .v1 {
+	width:30px;
+	height:80px;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.t .v2 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left: 60px;
+	top:0;
+}
+.t .v3 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left: 120px;
+	top:0;	
+}
+.t .h1 {
+	width:240px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:0;
+	left:0px;
+}
+.t .h2 {
+	width: 90px;
+	height: 40px;
+	position: absolute;
+	background: black;
+	bottom: 0;
+	left: 60px;	
+}
+/*------------------------------------------------------LETTER U*/
+#u {
+	background: url('images/u-hand.jpg')
+}
+.u .h1 {
+	width:120px;
+	height:40px;
+	position: absolute;
+	background: black;
+	top:0;
+	left:0px;
+}
+.u .v1 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left: 30px;
+	top:0;
+}
+.u .v2 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position: absolute;
+	left: 90px;
+	top:0;
+}
+.u .v3 {
+	width:30px;
+	height:200px;
+	background-color: black;
+	position:absolute;
+	left:210px;
+	bottom:40px;
+}
+/*------------------------------------------------------LETTER V*/
+#v {
+	background: url('images/v-hand.jpg')
+}
+.v .h2 {
+	width:120px;
+	height:40px;
+	position: absolute;
+	background: black;
+	bottom:0px;
+	left:0px;
+}
+.v .h3, .w .h3 {
+	width:60px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:40px;
+	left:90px;
+}
+.v .h4 {
+	width:60px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:80px;
+	left:120px;
+}
+.v .h5 {
+	width:60px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:120px;
+	left:150px;
+}
+.v .h6 {
+	width:60px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:160px;
+	left:180px;
+}
+.v .h7 {
+	width:60px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:200px;
+	left:210px;
+}
+/*------------------------------------------------------LETTER W*/
+#w {
+	background: url('images/w-hand.jpg')
+}
+.w .h4 {
+	width:90px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:80px;
+	left:120px;
+}
+.w .h5 {
+	width:30px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:0px;
+	left:210px;
+}
+.w .h6 {
+	width:30px;
+	height:40px;
+	position:absolute;
+	background:black;
+	bottom:40px;
+	left:180px;
+}
+.w .v3 {
+	width:30px;
+	height:160px;
+	background-color: black;
+	position:absolute;
+	left:150px;
+	bottom:80px;
+}
+.w .h7 {
+	width:30px;
+	height:240px;
+	background-color: black;
+	position:absolute;
+	left:240px;
+	bottom:0px;
+}
+
+/*------------------------------------------------------LETTER X*/
+#x {
+	background: url('images/x-hand.jpg')
+}
+.x .v1, .y .v1 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 60px;
+	top:0;
+}
+.x .v2 {
+	width:30px;
+	height:80px;
+	background-color: black;
+	position: absolute;
+	left: 60px;
+	bottom:0;
+}
+.x .v3 {
+	width:30px;
+	height:80px;
+	background-color: black;
+	position: absolute;
+	left: 150px;
+	top:0;
+}
+.x .v4, .y .v2 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 150px;
+	bottom:0;
+}
+.x .h2 {
+	width: 90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 0px;
+	bottom:0;
+}
+.x .h3 {
+	width: 90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 0px;
+	top:0;
+}
+.x .h4 {
+	width: 90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 150px;
+	bottom:0;
+}
+.x .h5 {
+	width: 90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 150px;
+	top:0;
+}
+.x .h6, .z .h2 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 90px;
+	bottom:80px;
+}
+.x .h7, .z .h3 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 120px;
+	top:80px;
+}
+/*------------------------------------------------------LETTER Y*/
+#y {
+	background: url('images/y-hand.jpg')
+}
+.y .v3 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 90px;
+	bottom:0;
+}
+.y .v4 {
+	width:30px;
+	height:120px;
+	background-color: black;
+	position: absolute;
+	left: 180px;
+	top:0;
+}
+.y .h2 {
+	width: 90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 180px;
+	top:0;
+}
+.y .h3 {
+	width: 90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 90px;
+	top:80px;
+}
+.y .h4 {
+	width: 90px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 90px;
+	bottom: 0px;
+}
+/*------------------------------------------------------LETTER Z*/
+#z {
+	background: url('images/z-hand.jpg')
+}
+.z .h4 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 150px;
+	top:40px;
+}
+.z .h5{
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 60px;
+	bottom:40px;
+}
+.z .h6 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 90px;
+	top:40px;
+}
+.z .h7{
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 0px;
+	bottom:40px;
+}
+.z .h8 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 60px;
+	top:80px;
+}
+.z .h9 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 30px;
+	bottom:80px;
+}
+.z .h10 {
+	width:180px;
+	height:40px;
+	position: absolute;
+	background: black;
+	bottom:0;
+	left:0px;
+}
+.z .h11 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 0px;
+	top:40px;
+}
+.z .h12 {
+	width: 30px;
+	height:40px;
+	background-color: black;
+	position: absolute;
+	left: 150px;
+	bottom:40px;
 }
 /*.letter {
 	width:300px;

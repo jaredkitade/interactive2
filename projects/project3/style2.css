@@ -1,6 +1,9 @@
 * {
 	box-sizing:border-box;
 }
+body {
+	background: black;
+}
 div {
 /*	-webkit-transform:scale(.5,.5);
 	-moz-transform:scale(.5,.5);
@@ -18,8 +21,8 @@ img {
 	margin-bottom: 50px;
 }
 .overlay {
-	opacity:0;
-	background:white;
+	opacity:1;
+	background:black;
 	-webkit-transition: opacity .5s ease;
 	-moz-transition: opacity .5s ease;
 	transition: opacity .5s ease;
@@ -44,7 +47,7 @@ img {
 .a .v1, .b .v1, .d .v1, .g .v1, .c .v1, .f .v1, .k .v1, .m .v1, .n .v1, .p .v1, .r .v1, .v .v1, .w .v1{
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0;
 	bottom:0;
@@ -52,7 +55,7 @@ img {
 .a .v2, .b .v2, .d .v2, .g .v2, .e .v2, .c .v2, .f .v2, .k .v2, .m .v2, .n .v2, .o .v2, .p .v2, .q .v2, .r .v2, .v .v2, .w .v2{
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:60px;
 	bottom:0;
@@ -60,7 +63,7 @@ img {
 .a .v3, .o .v3, .q .v3{
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	right:0;
 	bottom:0;
@@ -69,7 +72,7 @@ img {
 	width:120px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:0;
 	left:60px;
 }
@@ -77,7 +80,7 @@ img {
 	width:120px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:120px;
 	left:60px;
 }
@@ -85,7 +88,7 @@ img {
 	width:90px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	bottom:0px;
 	left:0px;
 }
@@ -97,7 +100,7 @@ img {
 .b .v3 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	right:0;
 	top:40px;
@@ -108,13 +111,13 @@ img {
 	position: absolute;
 	left:210px;
 	top:120px;
-	background: black;
+	background: white;
 }
 .b .h1, .d .h1, .g .h1, .i .h1, .p .h1, .z .h1, .three .h1 {
 	width:180px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:0;
 	left:0px;
 }
@@ -122,7 +125,7 @@ img {
 	width:210px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	bottom:0;
 	left:0;
 }
@@ -134,7 +137,7 @@ img {
 	width:210px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:0;
 	left:0px;
 }
@@ -142,14 +145,14 @@ img {
 	width:30px;
 	height:80px;
 	position: absolute;
-	background: black;
+	background: white;
 	top: 0;
 	left: 180px;
 }
 .c .v4, .r .v4 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:210px;
 	bottom:0;
@@ -161,7 +164,7 @@ img {
 .d .v3 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:180px;
 	top:40px;
@@ -169,7 +172,7 @@ img {
 .d .v4 {
 	width:30px;
 	height:80px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:210px;
 	top:80px;
@@ -177,7 +180,7 @@ img {
 .d .v5 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:180px;
 	top:160px;
@@ -186,7 +189,7 @@ img {
 	width:180px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	bottom:0;
 	left:0px;
 }
@@ -197,7 +200,7 @@ img {
 .e .v1{
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0;
 	bottom:0;
@@ -206,7 +209,7 @@ img {
 	width:90px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:0;
 	left:60px;
 }
@@ -214,7 +217,7 @@ img {
 	width:120px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:120px;
 	left:60px;
 }
@@ -231,7 +234,7 @@ img {
 	width:80px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:120px;
 	right:0;
 }
@@ -239,14 +242,14 @@ img {
 	width:240px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	bottom:0;
 	left:0px;
 }
 .g .v3 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:210px;
 	bottom:0;
@@ -258,7 +261,7 @@ img {
 .h .v1 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:30px;
 	bottom:0;
@@ -266,7 +269,7 @@ img {
 .h .v2 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:90px;
 	bottom:0;
@@ -274,7 +277,7 @@ img {
 .h .v3 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:210px;
 	bottom:0;
@@ -282,7 +285,7 @@ img {
 .h .h1 {
 	width:60px;
 	height:40px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:30px;
 	top:0;
@@ -290,7 +293,7 @@ img {
 .h .h2 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0px;
 	top:120px;
@@ -298,7 +301,7 @@ img {
 .h .h3 {
 	width:60px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:30px;
 	bottom:0px;
@@ -306,7 +309,7 @@ img {
 .h .h4 {
 	width:150px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:120px;
 	top:120px;
@@ -318,7 +321,7 @@ img {
 .i .v1, .one .v1 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:60px;
 	bottom:0;
@@ -326,7 +329,7 @@ img {
 .i .v2, .one .v2 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:120px;
 	bottom:0;
@@ -334,7 +337,7 @@ img {
 .i .h2 {
 	width: 180px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 30px;
 	bottom:0;
@@ -346,7 +349,7 @@ img {
 .j .v1, .s .v1, .three .v3 {
 	width: 30px;
 	height:80px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0px;
 	bottom:0;
@@ -354,7 +357,7 @@ img {
 .j .v2 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:90px;
 	bottom:0;
@@ -362,7 +365,7 @@ img {
 .j .v3 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	bottom:0;
@@ -370,7 +373,7 @@ img {
 .j .h1 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	top:0;
@@ -378,7 +381,7 @@ img {
 .j .h2 {
 	width: 180px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	bottom:0;
@@ -390,7 +393,7 @@ img {
 .k .h1, .l .h1, .m .h1, .n .h1, .v .h1, .w .h1, .x .h1, .y .h1 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	top:0;
@@ -398,7 +401,7 @@ img {
 .k .h2, .m .h2, .m .h2, .p .h2, .r .h2, .w .h2 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	bottom:0;
@@ -406,7 +409,7 @@ img {
 .k .v3, .r .v3 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 180px;
 	top:0;
@@ -414,7 +417,7 @@ img {
 .k .v4, .r .v4 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 210px;
 	bottom:0;
@@ -426,7 +429,7 @@ img {
 .l .v1 {
 	width: 30px;
 	height:80px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	bottom:0;
@@ -434,7 +437,7 @@ img {
 .l .v2 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0px;
 	bottom:0;
@@ -442,7 +445,7 @@ img {
 .l .v3 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:60px;
 	bottom:0;
@@ -450,7 +453,7 @@ img {
 .l .h2 {
 	width: 180px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	bottom:0;
@@ -462,7 +465,7 @@ img {
 .m .v3, .n .v3 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:90px;
 	top:40px;
@@ -470,7 +473,7 @@ img {
 .m .v4, .n .v4 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:120px;
 	top:80px;
@@ -478,7 +481,7 @@ img {
 .m .v5 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	top:0px;
@@ -486,7 +489,7 @@ img {
 .m .v6 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:240px;
 	bottom:0px;
@@ -494,7 +497,7 @@ img {
 .m .h3 {
 	width:90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	top:0px;
@@ -506,7 +509,7 @@ img {
 .n .v5 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	top:120px;
@@ -514,7 +517,7 @@ img {
 .n .v6 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:180px;
 	top:0px;
@@ -526,7 +529,7 @@ img {
 .o .v1, .q .v1, .zero .v1{
 	width:30px;
 	height:160px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0;
 	bottom:40px;
@@ -534,7 +537,7 @@ img {
 .o .h1, .q .h1{
 	width:180px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:30px;
 	top:0;
@@ -542,7 +545,7 @@ img {
 .o .h2 {
 	width:180px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:30px;
 	bottom:0;
@@ -554,7 +557,7 @@ img {
 .p .v3 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:180px;
 	top:40px;
@@ -566,7 +569,7 @@ img {
 .q .h2 {
 	width:240px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:30px;
 	bottom:0;
@@ -574,7 +577,7 @@ img {
 .q .h3 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	bottom:40px;
@@ -590,7 +593,7 @@ img {
 .s .v2 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	bottom:0;
@@ -598,7 +601,7 @@ img {
 .s .v3 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 150px;
 	bottom:0;
@@ -606,7 +609,7 @@ img {
 .s .v4 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 60px;
 	top:0;
@@ -614,7 +617,7 @@ img {
 .s .v5 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 120px;
 	top:0;
@@ -622,7 +625,7 @@ img {
 .s .v6, .t .v4 {
 	width:30px;
 	height:80px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 210px;
 	top:0;
@@ -631,7 +634,7 @@ img {
 	width:180px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:0;
 	left:60px;
 }
@@ -642,7 +645,7 @@ img {
 .t .v1, .one .v3, .three .v2 {
 	width:30px;
 	height:80px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0;
 	top:0;
@@ -650,7 +653,7 @@ img {
 .t .v2 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 60px;
 	top:0;
@@ -658,7 +661,7 @@ img {
 .t .v3 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 120px;
 	top:0;	
@@ -667,7 +670,7 @@ img {
 	width:240px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:0;
 	left:0px;
 }
@@ -675,7 +678,7 @@ img {
 	width: 90px;
 	height: 40px;
 	position: absolute;
-	background: black;
+	background: white;
 	bottom: 0;
 	left: 60px;	
 }
@@ -687,14 +690,14 @@ img {
 	width:120px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	top:0;
 	left:0px;
 }
 .u .v1 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 30px;
 	top:0;
@@ -702,7 +705,7 @@ img {
 .u .v2 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	top:0;
@@ -710,7 +713,7 @@ img {
 .u .v3 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position:absolute;
 	left:210px;
 	bottom:40px;
@@ -723,7 +726,7 @@ img {
 	width:120px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	bottom:0px;
 	left:0px;
 }
@@ -731,7 +734,7 @@ img {
 	width:60px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:40px;
 	left:90px;
 }
@@ -739,7 +742,7 @@ img {
 	width:60px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:80px;
 	left:120px;
 }
@@ -747,7 +750,7 @@ img {
 	width:60px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:120px;
 	left:150px;
 }
@@ -755,7 +758,7 @@ img {
 	width:60px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:160px;
 	left:180px;
 }
@@ -763,7 +766,7 @@ img {
 	width:60px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:200px;
 	left:210px;
 }
@@ -775,7 +778,7 @@ img {
 	width:90px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:80px;
 	left:120px;
 }
@@ -783,7 +786,7 @@ img {
 	width:30px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:0px;
 	left:210px;
 }
@@ -791,14 +794,14 @@ img {
 	width:30px;
 	height:40px;
 	position:absolute;
-	background:black;
+	background:white;
 	bottom:40px;
 	left:180px;
 }
 .w .v3 {
 	width:30px;
 	height:160px;
-	background-color: black;
+	background-color: white;
 	position:absolute;
 	left:150px;
 	bottom:80px;
@@ -806,7 +809,7 @@ img {
 .w .h7 {
 	width:30px;
 	height:240px;
-	background-color: black;
+	background-color: white;
 	position:absolute;
 	left:240px;
 	bottom:0px;
@@ -819,7 +822,7 @@ img {
 .x .v1, .y .v1 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 60px;
 	top:0;
@@ -827,7 +830,7 @@ img {
 .x .v2 {
 	width:30px;
 	height:80px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 60px;
 	bottom:0;
@@ -835,7 +838,7 @@ img {
 .x .v3 {
 	width:30px;
 	height:80px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 150px;
 	top:0;
@@ -843,7 +846,7 @@ img {
 .x .v4, .y .v2 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 150px;
 	bottom:0;
@@ -851,7 +854,7 @@ img {
 .x .h2 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	bottom:0;
@@ -859,7 +862,7 @@ img {
 .x .h3 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	top:0;
@@ -867,7 +870,7 @@ img {
 .x .h4 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 150px;
 	bottom:0;
@@ -875,7 +878,7 @@ img {
 .x .h5 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 150px;
 	top:0;
@@ -883,7 +886,7 @@ img {
 .x .h6, .z .h2, .two .h12 {
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	bottom:80px;
@@ -891,7 +894,7 @@ img {
 .x .h7, .z .h3, .two .h13 {
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 120px;
 	top:80px;
@@ -903,7 +906,7 @@ img {
 .y .v3 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	bottom:0;
@@ -911,7 +914,7 @@ img {
 .y .v4 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 180px;
 	top:0;
@@ -919,7 +922,7 @@ img {
 .y .h2 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 180px;
 	top:0;
@@ -927,7 +930,7 @@ img {
 .y .h3 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	top:80px;
@@ -935,7 +938,7 @@ img {
 .y .h4 {
 	width: 90px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	bottom: 0px;
@@ -947,7 +950,7 @@ img {
 .z .h4, .two .h3{
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 150px;
 	top:40px;
@@ -955,7 +958,7 @@ img {
 .z .h5, .two .h4{
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 60px;
 	bottom:40px;
@@ -963,7 +966,7 @@ img {
 .z .h6, .two .h5{
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 90px;
 	top:40px;
@@ -971,7 +974,7 @@ img {
 .z .h7, .two .h6{
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	bottom:40px;
@@ -979,7 +982,7 @@ img {
 .z .h8, .two .h7 {
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 60px;
 	top:80px;
@@ -987,7 +990,7 @@ img {
 .z .h9, .two .h8{
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 30px;
 	bottom:80px;
@@ -996,14 +999,14 @@ img {
 	width:180px;
 	height:40px;
 	position: absolute;
-	background: black;
+	background: white;
 	bottom:0;
 	left:0px;
 }
 .z .h11, .two .h10 {
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 0px;
 	top:40px;
@@ -1011,7 +1014,7 @@ img {
 .z .h12, .two .h11 {
 	width: 30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left: 150px;
 	bottom:40px;
@@ -1023,7 +1026,7 @@ img {
 .zero .v2 {
 	width:30px;
 	height:160px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	bottom:40px;
@@ -1031,7 +1034,7 @@ img {
 .zero .h1 {
 	height:40px;
 	width:120px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:30px;
 	top:0;
@@ -1039,7 +1042,7 @@ img {
 .zero .h2 {
 	height:40px;
 	width:120px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:30px;
 	bottom:0;
@@ -1051,7 +1054,7 @@ img {
 .one .h1 {
 	height:40px;
 	width:120px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:0px;
 	top:0;
@@ -1063,7 +1066,7 @@ img {
 .two .h1 {
 	height:40px;
 	width:30px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:0px;
 	top:40px;
@@ -1071,7 +1074,7 @@ img {
 .two .h2 {
 	height:40px;
 	width:120px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:30px;
 	top:0;
@@ -1083,7 +1086,7 @@ img {
 .three .v4, .four .v2 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:150px;
 	bottom:0px;
@@ -1091,7 +1094,7 @@ img {
 .three .v5, .four .v3 {
 	width:30px;
 	height:200px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:90px;
 	bottom:0px;
@@ -1099,7 +1102,7 @@ img {
 .three .v6 {
 	width:30px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:60px;
 	bottom:80px;
@@ -1111,7 +1114,7 @@ img {
 .four .h1 {
 	height:40px;
 	width:90px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:90px;
 	top:0px;
@@ -1119,7 +1122,7 @@ img {
 .four .h2 {
 	height:40px;
 	width:90px;
-	background: black;
+	background: white;
 	position: absolute;
 	left:90px;
 	bottom:0px;
@@ -1127,7 +1130,7 @@ img {
 .four .v1 {
 	width:30px;
 	height:120px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0px;
 	top:0px;
@@ -1135,7 +1138,7 @@ img {
 .four .h3 {
 	width:120px;
 	height:40px;
-	background-color: black;
+	background-color: white;
 	position: absolute;
 	left:0px;
 	bottom:80px;

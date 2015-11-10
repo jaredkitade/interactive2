@@ -115,7 +115,7 @@ img {
 	top:0;
 	left:0px;
 }
-.b .h3, .e .h3, .u .h2 {
+.b .h3, .e .h3, .u .h2, .one .h2 {
 	width:210px;
 	height:40px;
 	position: absolute;
@@ -312,7 +312,7 @@ img {
 #i {
 	background: url('images/i-hand.jpg')
 }
-.i .v1 {
+.i .v1, .one .v1 {
 	width:30px;
 	height:200px;
 	background-color: black;
@@ -320,7 +320,7 @@ img {
 	left:60px;
 	bottom:0;
 }
-.i .v2 {
+.i .v2, .one .v2 {
 	width:30px;
 	height:240px;
 	background-color: black;
@@ -520,7 +520,7 @@ img {
 #o {
 	background: url('images/o-hand.jpg')
 }
-.o .v1, .q .v1 {
+.o .v1, .q .v1, .zero .v1{
 	width:30px;
 	height:160px;
 	background-color: black;
@@ -636,7 +636,7 @@ img {
 #t {
 	background: url('images/t-hand.jpg')
 }
-.t .v1 {
+.t .v1, .one .v3, .three .v2 {
 	width:30px;
 	height:80px;
 	background-color: black;
@@ -877,7 +877,7 @@ img {
 	left: 150px;
 	top:0;
 }
-.x .h6, .z .h2 {
+.x .h6, .z .h2, .two .h12 {
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -885,7 +885,7 @@ img {
 	left: 90px;
 	bottom:80px;
 }
-.x .h7, .z .h3 {
+.x .h7, .z .h3, .two .h13 {
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -941,7 +941,7 @@ img {
 #z {
 	background: url('images/z-hand.jpg')
 }
-.z .h4 {
+.z .h4, .two .h3{
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -949,7 +949,7 @@ img {
 	left: 150px;
 	top:40px;
 }
-.z .h5{
+.z .h5, .two .h4{
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -957,7 +957,7 @@ img {
 	left: 60px;
 	bottom:40px;
 }
-.z .h6 {
+.z .h6, .two .h5{
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -965,7 +965,7 @@ img {
 	left: 90px;
 	top:40px;
 }
-.z .h7{
+.z .h7, .two .h6{
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -973,7 +973,7 @@ img {
 	left: 0px;
 	bottom:40px;
 }
-.z .h8 {
+.z .h8, .two .h7 {
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -981,7 +981,7 @@ img {
 	left: 60px;
 	top:80px;
 }
-.z .h9 {
+.z .h9, .two .h8{
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -989,7 +989,7 @@ img {
 	left: 30px;
 	bottom:80px;
 }
-.z .h10 {
+.z .h10, .two .h9 {
 	width:180px;
 	height:40px;
 	position: absolute;
@@ -997,7 +997,7 @@ img {
 	bottom:0;
 	left:0px;
 }
-.z .h11 {
+.z .h11, .two .h10 {
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -1005,7 +1005,7 @@ img {
 	left: 0px;
 	top:40px;
 }
-.z .h12 {
+.z .h12, .two .h11 {
 	width: 30px;
 	height:40px;
 	background-color: black;
@@ -1013,79 +1013,63 @@ img {
 	left: 150px;
 	bottom:40px;
 }
-/*.letter {
-	width:300px;
-	height:450px;
-	background: lime;
-	float:left;
-	margin-right:8px;
-	display:inline-block;
-	vertical-align: middle;
-	margin-bottom: 8px;
-	position:relative;
+/*------------------------------------------------------ZERO*/
+#zero {
+	background: url('images/zero-hand.jpg')
 }
-.h .v1, .d .v1, .p .v1, .n .v1 {
-	position:absolute;
-	height:100%;
-	width:6px;
-	left:0;
-	background: black;
-	margin:0 8px 8px 0;
-}
-.h .v2, .n .v2 {
-	position:absolute;
-	height:100%;
-	width:6px;
-	right:0;
-	background: black;
-	margin:0 0 8px 8px;
-}
-.h .h1 {
-	position:absolute;
-	width:100%;
-	top:50%;
-	height:6px;
-	background: black;
-}
-.o .c1 {
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	border:6px solid black;
-	border-radius: 50%;
-}
-.d .c1{
-	border:6px solid black;
-	border-top-right-radius: 50%;
-	border-bottom-right-radius:50%;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	position:absolute;
-}
-.p .c1 {
-	height:225px;
-	width:100%;
+.zero .v2 {
+	width:30px;
+	height:160px;
+	background-color: black;
 	position: absolute;
-	border:6px solid black;
-	top:0;
-	right:0;
-	border-top-right-radius: 50%;
-	border-bottom-right-radius:50%;
+	left:150px;
+	bottom:40px;
 }
-.n .d1 {
-	position:absolute;
-	left:5px;
-	height:6px;
-	width:535px;
+.zero .h1 {
+	height:40px;
+	width:120px;
 	background: black;
-	transform:rotate(56.6deg);
-	-webkit-transform:rotate(56.6deg);
-	-moz-transform:rotate(56.6deg);
-	transform-origin:0% 0%;
-	-webkit-transform-origin:0% 0%;
-	-moz-transform-origin:0% 0%;
-}*/
+	position: absolute;
+	left:30px;
+	top:0;
+}
+.zero .h2 {
+	height:40px;
+	width:120px;
+	background: black;
+	position: absolute;
+	left:30px;
+	bottom:0;
+}
+/*------------------------------------------------------ONE*/
+#one {
+	background: url('images/one-hand.jpg')
+}
+.one .h1 {
+	height:40px;
+	width:120px;
+	background: black;
+	position: absolute;
+	left:0px;
+	top:0;
+}
+/*------------------------------------------------------TWO*/
+#two {
+	background: url('images/two-hand.jpg')
+}
+.two .h1 {
+	height:40px;
+	width:30px;
+	background: black;
+	position: absolute;
+	left:0px;
+	top:40px;
+}
+.two .h2 {
+	height:40px;
+	width:120px;
+	background: black;
+	position: absolute;
+	left:30px;
+	top:0;
+}

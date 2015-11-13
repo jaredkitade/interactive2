@@ -177,7 +177,7 @@
 <body>
 <!-- Use the letters (visible) -->
 
-<div class="letters">cabcab  bac bac abc cab bac</div>
+<div class="letters">cabcabbacbacabccabbac</div>
 
 <!-- Define the letters (invisible) -->
 
@@ -215,7 +215,7 @@ for (i = 0; i < letters.length; i++) {
     console.log(letters[i]);
  
     var character = letters[i];
-    var chracterDefinition = $('.letter-definition[data-character="' + character + '"]').html();
+    var characterDefinition = $('.letter-definition[data-character="' + character + '"]').html();
     var characterHTML = '<div class="letter" data-character="' + character + '">' + chracterDefinition + '</div>';
     
     letterArray.push(characterHTML);

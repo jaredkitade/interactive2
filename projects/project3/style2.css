@@ -13,11 +13,20 @@ img {
 	height:240px;
 	width:auto;
 }
+#container {
+	width:1000px;
+	height:auto;
+	padding:30px;
+	margin:0 auto;
+}
+.letter-definition {
+    display: none;
+}
 .hand {
-	height:240px;
-	width:auto;
+	height:auto;
+	width:80px;
 	display:inline-block;
-	margin-right: 50px;
+	margin-right: 120px;
 	margin-bottom: 50px;
 }
 .overlay {
@@ -32,9 +41,6 @@ img {
 }
 /*------------------------------------------------------LETTER A*/
 
-#a {
-	background: url('images/a-hand.jpg');
-}
 .letter {
 	-webkit-transform:scale(.5,.5);
 	-moz-transform:scale(.5,.5);
@@ -44,7 +50,7 @@ img {
 	display:inline-block;
 	position: relative;
 }
-.a .v1, .b .v1, .d .v1, .g .v1, .c .v1, .f .v1, .k .v1, .m .v1, .n .v1, .p .v1, .r .v1, .v .v1, .w .v1{
+.a .v1, .b .v1, .d .v1, .g .v1, .c .v1, .f .v1, .k .v1, .m .v1, .n .v1, .p .v1, .r .v1, .v .v1, .w .v1, .six .v1{
 	width:30px;
 	height:200px;
 	background-color: white;
@@ -52,7 +58,7 @@ img {
 	left:0;
 	bottom:0;
 }
-.a .v2, .b .v2, .d .v2, .g .v2, .e .v2, .c .v2, .f .v2, .k .v2, .m .v2, .n .v2, .o .v2, .p .v2, .q .v2, .r .v2, .v .v2, .w .v2{
+.a .v2, .b .v2, .d .v2, .g .v2, .e .v2, .c .v2, .f .v2, .k .v2, .m .v2, .n .v2, .o .v2, .p .v2, .q .v2, .r .v2, .v .v2, .w .v2, .six .v2{
 	width:30px;
 	height:240px;
 	background-color: white;
@@ -94,9 +100,6 @@ img {
 }
 /*------------------------------------------------------LETTER B*/
 
-#b {
-	background: url('images/b-hand.jpg');
-}
 .b .v3 {
 	width:30px;
 	height:120px;
@@ -113,7 +116,7 @@ img {
 	top:120px;
 	background: white;
 }
-.b .h1, .d .h1, .g .h1, .i .h1, .p .h1, .z .h1, .three .h1 {
+.b .h1, .d .h1, .g .h1, .i .h1, .p .h1, .z .h1, .three .h1, .five .h1, .six .h1 {
 	width:180px;
 	height:40px;
 	position: absolute;
@@ -130,10 +133,8 @@ img {
 	left:0;
 }
 /*------------------------------------------------------LETTER C*/
-#c {
-	background: url('images/c-hand.jpg')
-}
-.c .h1, .f .h1, .r .h1 {
+
+.c .h1, .f .h1, .r .h1, .seven .h1 {
 	width:210px;
 	height:40px;
 	position: absolute;
@@ -158,9 +159,7 @@ img {
 	bottom:0;
 }
 /*------------------------------------------------------LETTER D*/
-#d {
-	background: url('images/d-hand.jpg')
-}
+
 .d .v3 {
 	width:30px;
 	height:40px;
@@ -177,7 +176,7 @@ img {
 	left:210px;
 	top:80px;
 }
-.d .v5 {
+.d .v5, .five .v3 {
 	width:30px;
 	height:40px;
 	background-color: white;
@@ -185,7 +184,7 @@ img {
 	left:180px;
 	top:160px;
 }
-.d .h3, .s .h2, .three .h2 {
+.d .h3, .s .h2, .three .h2, .five .h3 {
 	width:180px;
 	height:40px;
 	position: absolute;
@@ -194,9 +193,7 @@ img {
 	left:0px;
 }
 /*------------------------------------------------------LETTER E*/
-#e {
-	background: url('images/e-hand.jpg')
-}
+
 .e .v1{
 	width:30px;
 	height:240px;
@@ -222,14 +219,10 @@ img {
 	left:60px;
 }
 /*------------------------------------------------------LETTER F*/
-#f {
-	background: url('images/f-hand.jpg')
-}
+
 
 /*------------------------------------------------------LETTER G*/
-#g {
-	background: url('images/g-hand.jpg')
-}
+
 .g .h2 {
 	width:80px;
 	height:40px;
@@ -238,7 +231,7 @@ img {
 	top:120px;
 	right:0;
 }
-.g .h3, .c .h2{
+.g .h3, .c .h2, .six .h3{
 	width:240px;
 	height:40px;
 	position: absolute;
@@ -246,7 +239,7 @@ img {
 	bottom:0;
 	left:0px;
 }
-.g .v3 {
+.g .v3, .six .v4 {
 	width:30px;
 	height:120px;
 	background-color: white;
@@ -255,9 +248,7 @@ img {
 	bottom:0;
 }
 /*------------------------------------------------------LETTER H*/
-#h {
-	background: url('images/h-hand.jpg')
-}
+
 .h .v1 {
 	width:30px;
 	height:200px;
@@ -315,9 +306,7 @@ img {
 	top:120px;
 }
 /*------------------------------------------------------LETTER I*/
-#i {
-	background: url('images/i-hand.jpg')
-}
+
 .i .v1, .one .v1 {
 	width:30px;
 	height:200px;
@@ -343,9 +332,7 @@ img {
 	bottom:0;
 }
 /*------------------------------------------------------LETTER J*/
-#j {
-	background: url('images/j-hand.jpg')
-}
+
 .j .v1, .s .v1, .three .v3 {
 	width: 30px;
 	height:80px;
@@ -642,7 +629,7 @@ img {
 #t {
 	background: url('images/t-hand.jpg')
 }
-.t .v1, .one .v3, .three .v2 {
+.t .v1, .one .v3, .three .v2, .seven .v1 {
 	width:30px;
 	height:80px;
 	background-color: white;
@@ -1028,20 +1015,20 @@ img {
 	height:160px;
 	background-color: white;
 	position: absolute;
-	left:150px;
+	left:180px;
 	bottom:40px;
 }
-.zero .h1 {
+.zero .h1, .eight .h1, .nine .h1, .question .h1 {
 	height:40px;
-	width:120px;
+	width:150px;
 	background: white;
 	position: absolute;
 	left:30px;
 	top:0;
 }
-.zero .h2 {
+.zero .h2, .eight .h3 {
 	height:40px;
-	width:120px;
+	width:150px;
 	background: white;
 	position: absolute;
 	left:30px;
@@ -1063,7 +1050,7 @@ img {
 #two {
 	background: url('images/two-hand.jpg')
 }
-.two .h1 {
+.two .h1, .question .v1 {
 	height:40px;
 	width:30px;
 	background: white;
@@ -1143,4 +1130,349 @@ img {
 	left:0px;
 	bottom:80px;
 }
+/*------------------------------------------------------five*/
+#five {
+	background: url('images/five-hand.jpg')
 }
+.five .v1 {
+	width:30px;
+	height:160px;
+	background-color: white;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+.five .h2 {
+	width:180px;
+	height:40px;
+	position: absolute;
+	background: white;
+	bottom:80px;
+	left:0px;
+}
+.five .v2 {
+	width:30px;
+	height:160px;
+	background-color: white;
+	position: absolute;
+	left:60px;
+	top:0px;
+}
+.five .v4, .six .v3 {
+	width:30px;
+	height:80px;
+	background-color: white;
+	position: absolute;
+	left:180px;
+	top:0px;
+}
+
+/*------------------------------------------------------six*/
+#six {
+	background: url('images/six-hand.jpg')
+}
+.six .h2 {
+	width:150px;
+	height:40px;
+	position: absolute;
+	background: white;
+	bottom:80px;
+	left:60px;
+}
+/*------------------------------------------------------seven*/
+#seven {
+	background: url('images/seven-hand.jpg')
+}
+.seven .v2, .question .v2 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 120px;
+	top:40px;
+}
+.seven .v3, .question .v3 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 180px;
+	top:40px;
+}
+.seven .v4, .question .v4 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 90px;
+	top:80px;
+}
+.seven .v5, .question .v5 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 150px;
+	top:80px;
+}
+.seven .v6 {
+	width: 30px;
+	height:120px;
+	background-color: white;
+	position: absolute;
+	left: 60px;
+	bottom:0px;
+}
+.seven .v7 {
+	width: 30px;
+	height:120px;
+	background-color: white;
+	position: absolute;
+	left: 120px;
+	bottom:0px;
+}
+.seven .h2 {
+	width: 90px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 60px;
+	bottom:0px;
+}
+/*------------------------------------------------------eight*/
+#eight {
+	background: url('images/eight-hand.jpg')
+}
+.eight .v1, .nine .v1 {
+	width: 30px;
+	height:80px;
+	background-color: white;
+	position: absolute;
+	left: 0px;
+	top:40px;	
+}
+.eight .v2 {
+	width:30px;
+	height:80px;
+	background-color: white;
+	position: absolute;
+	left:180px;
+	top:40px;
+}
+.eight .h2 {
+	height:40px;
+	width:150px;
+	background: white;
+	position: absolute;
+	left:30px;
+	top:120px;
+}
+.eight .v3 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 0px;
+	bottom:40px;
+}
+.eight .v4 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 180px;
+	bottom:40px;
+}
+/*------------------------------------------------------nine*/
+#nine {
+	background: url('images/nine-hand.jpg')
+}
+.nine .h2 {
+	height:40px;
+	width:120px;
+	background: white;
+	position: absolute;
+	left:30px;
+	top:120px;
+}
+.nine .v2 {
+	width:30px;
+	height:200px;
+	background-color: white;
+	position: absolute;
+	left:180px;
+	bottom:0px;
+}
+.nine .v3 {
+	width:30px;
+	height:200px;
+	background-color: white;
+	position: absolute;
+	left:120px;
+	bottom:0px;
+}
+.nine .h3 {
+	width:90px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left:120px;
+	bottom:0px;
+}
+/*------------------------------------------------------period*/
+.period .v1, .comma .v1 {
+	width:30px;
+	height: 40px;
+	background: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+/*------------------------------------------------------comma*/
+
+.comma .v2 {
+	width:30px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	left: 30px;
+	bottom: -40px;
+}
+
+/*------------------------------------------------------question mark*/
+.question .v6 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 120px;
+	top:120px;
+}
+.question .v7 {
+	width: 30px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left: 60px;
+	top:120px;
+}
+.question .h2 {
+	width:90px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left:60px;
+	bottom:0px;
+}
+/*------------------------------------------------------exclamation mark*/
+
+.exclamation .h1 {
+	width:90px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+.exclamation .h2 {
+	width:90px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left:0px;
+	top:120px;
+}
+.exclamation .h3 {
+	width:90px;
+	height:40px;
+	background-color: white;
+	position: absolute;
+	left:0px;
+	bottom:0px;
+
+}
+.exclamation .v1 {
+	width:30px;
+	height:120px;
+	background-color: white;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+.exclamation .v2 {
+	width:30px;
+	height:120px;
+	background-color: white;
+	position: absolute;
+	left:60px;
+	top:0px;
+}
+/*------------------------------------------------------right quote*/
+
+.r-quote .v1 {
+	width:30px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.r-quote .v2 {
+	width:30px;
+	height: 40px;
+	background: white;
+	position: absolute;
+	left: 30px;
+	top: 40px;
+}
+.r-quote .v3 {
+	width:30px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	left: 90px;
+	top: 0px;
+}
+.r-quote .v4 {
+	width:30px;
+	height: 40px;
+	background: white;
+	position: absolute;
+	left: 120px;
+	top: 40px;
+}
+/*------------------------------------------------------left quote*/
+
+.l-quote .v1 {
+	width:30px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	left: 30px;
+	top: 0px;
+}
+.l-quote .v2 {
+	width:30px;
+	height: 40px;
+	background: white;
+	position: absolute;
+	left: 0px;
+	top: 40px;
+}
+.l-quote .v3 {
+	width:30px;
+	height: 80px;
+	background: white;
+	position: absolute;
+	left: 120px;
+	top: 0px;
+}
+.l-quote .v4 {
+	width:30px;
+	height: 40px;
+	background: white;
+	position: absolute;
+	left: 90px;
+	top: 40px;
+}
+

@@ -3,6 +3,7 @@
 }
 body {
 	background: black;
+	cursor:url('images/f-hand.png');
 }
 div {
 /*	-webkit-transform:scale(.5,.5);
@@ -16,7 +17,7 @@ img {
 #container {
 	width:1000px;
 	height:auto;
-	padding:30px;
+	padding:0px;
 	margin:0 auto;
 }
 .letter-definition {
@@ -24,11 +25,11 @@ img {
 }
 .hand {
 	height:auto;
-	width:80px;
-	display:inline-block;
-	margin-right: 120px;
+/*	width:80px;
+*/	display:inline-block;
+/*	margin-right: 120px;
 	margin-bottom: 50px;
-}
+*/}
 .overlay {
 	opacity:1;
 	background:black;

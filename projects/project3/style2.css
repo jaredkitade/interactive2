@@ -12,9 +12,6 @@ div {
 .letter-definition {
 	display: none;
 }
-.letter-def {
-	display: none;
-}
 .alphabet {
 	z-index: 99;
 	position: fixed;
@@ -1471,7 +1468,7 @@ img {
 	background: white;
 	position: absolute;
 	left:15px;
-	bottom: -40px;
+	bottom: -20px;
 }
 
 /*------------------------------------------------------question mark*/

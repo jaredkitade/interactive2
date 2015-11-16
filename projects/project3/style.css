@@ -16,6 +16,9 @@ img {
 .letter-definition {
     display: none;
 }
+.letter-def {
+	display: none;
+}
 .hand {
 	height:240px;
 	width:auto;

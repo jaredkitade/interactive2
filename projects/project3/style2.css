@@ -9,6 +9,12 @@ div {
 	-moz-transform:scale(.5,.5);
 	transform:scale(.5,.5);*/
 }
+.letter-definition {
+	display: none;
+}
+.letter-def {
+	display: none;
+}
 .alphabet {
 	z-index: 99;
 	position: fixed;
@@ -54,6 +60,7 @@ div {
 	margin:0 auto;
 	padding:20px;
 	margin-top:200px;
+	margin-bottom:200px;
 }
 .container {
 	width:1215px;

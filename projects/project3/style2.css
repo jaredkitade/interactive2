@@ -9,6 +9,40 @@ div {
 	-moz-transform:scale(.5,.5);
 	transform:scale(.5,.5);*/
 }
+.alphabet {
+	z-index: 99;
+	position: fixed;
+	background: white;
+	border-radius: 50%;
+	height:30px;
+	width:30px;
+	cursor:pointer;
+	right:30px;
+}
+.index {
+	top:30px;
+}
+.page2 {
+	top:80px;
+}
+.page3 {
+	top:130px;
+}
+.page4 {
+	top:180px;
+}
+.index:hover {
+	background: red;
+}
+.page2:hover {
+	background: blue;
+}
+.page3:hover {
+	background: green;
+}
+.page4:hover {
+	background: purple;
+}
 .letters {
 	width:1215px;
 	text-align: center;
@@ -1092,7 +1126,7 @@ img {
 }
 /*------------------------------------------------------ZERO*/
 #zero {
-	background: url('images/zero-hand-small.png');
+	background: url('images/o-hand-small.png');
 
 }
 .zero .v2 {

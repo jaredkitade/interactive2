@@ -13,12 +13,47 @@ img {
 	height:240px;
 	width:auto;
 }
+.alphabet {
+	z-index: 99;
+	position: fixed;
+	background: white;
+	border-radius: 50%;
+	height:30px;
+	width:30px;
+	cursor:pointer;
+	right:30px;
+}
+.index {
+	top:30px;
+}
+.page2 {
+	top:80px;
+}
+.page3 {
+	top:130px;
+}
+.page4 {
+	top:180px;
+}
+.index:hover {
+	background: red;
+}
+.page2:hover {
+	background: blue;
+}
+.page3:hover {
+	background: green;
+}
+.page4:hover {
+	background: purple;
+}
 #container {
 	width:1200px;
 	height:auto;
 	padding:0px;
 	margin:0 auto;
 }
+
 .letter-definition {
     display: none;
 }

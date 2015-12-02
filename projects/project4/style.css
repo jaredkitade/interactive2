@@ -6,7 +6,7 @@ font-family:'Proxima N W01 Reg';
 font-family:'Proxima N W01 Xbold';*/
 .container {
 	position: absolute;
-	left: 100px;
+	left: 120px;
 	width:100%;
 	padding:10px;
 }
@@ -21,11 +21,11 @@ body {
 .nav {
 	position: fixed;
 	height: 100vh;
-	width: 100px;
+	width: 120px;
 	left: 0;
 	top: 0;
 	margin: 0;
-	padding: 0;
+	padding: 5px;
 	background: black;
 	font-family:'Proxima Nova W01 Medium';
 }
@@ -44,11 +44,6 @@ body {
 	-webkit-transition:.2s ease-in;
 	-moz-transition:.2s ease-in;
 	transition:.2s ease-in;
-}
-.video-screen {
-	width:85vw;
-	height:auto;
-	background: black;
 }
 .loading {
 	transform:scale(.11);

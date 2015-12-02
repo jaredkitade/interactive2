@@ -63,6 +63,7 @@ body {
 	left: 0;
 }
 .title {
+	color:white;
 	height:35px;
 	width:150px;
 /*	background: lime;
@@ -72,8 +73,8 @@ body {
 	font-family:'Proxima N W01 Smbd';
 	vertical-align: middle;
 	font-size: 14px;
-	text-align: center;
-	padding-top: 7px;
+/*	text-align: center;
+*/	padding-top: 7px;
 	-webkit-transition:.2s ease-out;
 	-moz-transition:.2s ease-out;
 	transition:.2s ease-out;
@@ -88,8 +89,8 @@ body {
 	transition:.2s ease-in;
 }
 .overlay:hover ~ .title {
-	color:white;
-	background-color: #33B9FF;
+/*	color:white;
+*/	color: #33B9FF;
 	-webkit-transition:.2s ease-in;
 	-moz-transition:.2s ease-in;
 	transition:.2s ease-in;

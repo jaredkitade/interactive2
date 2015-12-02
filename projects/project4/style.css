@@ -69,12 +69,39 @@ body {
 */	position: absolute;
 	bottom: 0;
 	left: 0;
-	color: white;
 	font-family:'Proxima N W01 Light';
 	vertical-align: middle;
 	font-size: 14px;
 	text-align: center;
+		-webkit-transition:.2s ease-out;
+	-moz-transition:.2s ease-out;
+	transition:.2s ease-out;
 }
 .movie:hover {
 	cursor: pointer;
+}
+.overlay:hover{
+	opacity:0;
+	-webkit-transition:.2s ease-in;
+	-moz-transition:.2s ease-in;
+	transition:.2s ease-in;
+}
+.overlay:hover ~ .title {
+	color:white;
+	-webkit-transition:.2s ease-in;
+	-moz-transition:.2s ease-in;
+	transition:.2s ease-in;
+}
+
+.overlay {
+	top:0;
+	left:0;
+	bottom:35px;
+	right:0;
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	z-index: 99;
+		-webkit-transition:.2s ease-out;
+	-moz-transition:.2s ease-out;
+	transition:.2s ease-out;
 }

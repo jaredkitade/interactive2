@@ -15,7 +15,7 @@ body {
 	background: black;
 	color:#AAAAAA;
 	height:auto;
-	font-size: 18px;
+	font-size: 16px;
 	overflow-x:hidden; 
 }
 .nav {
@@ -63,7 +63,7 @@ body {
 	left: 0;
 }
 .title {
-	color:white;
+	color:#CCCCCC;
 	height:35px;
 	width:150px;
 /*	background: lime;

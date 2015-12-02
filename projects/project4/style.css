@@ -18,6 +18,11 @@ body {
 	font-size: 16px;
 	overflow-x:hidden; 
 }
+h1 {
+	font-family:'Proxima N W01 Xbold';
+	font-weight: normal;
+	font-size: 16px;
+}
 .nav {
 	position: fixed;
 	height: 100vh;

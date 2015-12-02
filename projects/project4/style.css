@@ -27,7 +27,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: black;
-	font-family:'Proxima N W01 Smbd';
+	font-family:'Proxima Nova W01 Medium';
 }
 .nav li {
 	width:100px;
@@ -39,8 +39,7 @@ body {
 	transition:.2s ease-out;
 }
 .nav li:hover {
-	background: #33B9FF;
-	color: white;
+	color: #33B9FF;
 	cursor: pointer;
 	-webkit-transition:.2s ease-in;
 	-moz-transition:.2s ease-in;

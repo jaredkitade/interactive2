@@ -51,6 +51,9 @@ h1 {
 	-moz-transition:.2s ease-in;
 	transition:.2s ease-in;
 }
+.nav li h1:hover {
+	pointer-effects:none;
+}
 .loading {
 	transform:scale(.11);
 }

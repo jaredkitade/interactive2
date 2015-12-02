@@ -27,18 +27,24 @@ body {
 	margin: 0;
 	padding: 0;
 	background: black;
-	font-family:'Proxima N W01 Reg';
+	font-family:'Proxima N W01 Smbd';
 }
 .nav li {
 	width:100px;
 	height:auto;
 	padding: 10px 15px;
 	list-style: none;
+	-webkit-transition:.2s ease-out;
+	-moz-transition:.2s ease-out;
+	transition:.2s ease-out;
 }
 .nav li:hover {
 	background: #33B9FF;
 	color: white;
 	cursor: pointer;
+	-webkit-transition:.2s ease-in;
+	-moz-transition:.2s ease-in;
+	transition:.2s ease-in;
 }
 .video-screen {
 	width:85vw;

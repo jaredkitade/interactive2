@@ -1,5 +1,10 @@
 $(document).ready(function(){
 	
+	$('li.all-link').click(function(){
+		// $('.movie').hide();
+		$('.movie').show();
+	});
+
 	$('li.action-link').click(function(){
 		$('.movie').hide();
 		$('.movie.action').show();

@@ -422,12 +422,14 @@ white-space: nowrap;
 			display: none;
 			z-index: 100;
 			overflow: scroll;
+			cursor: pointer;
 		}
 		#mobile-nav li {
 			list-style: none;
 			padding: 7px 15px;
 			list-style: none;
 			font-size: 14px;
+			cursor: pointer;
 		}
 		.nav {
 			display: none;

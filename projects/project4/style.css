@@ -37,6 +37,9 @@ h1 {
 	font-size: 26px;
 	text-align: center;
 }
+#mobile-nav {
+	display: none;
+}
 .nav {
 	position: fixed;
 	height: 100vh;

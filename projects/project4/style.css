@@ -143,7 +143,7 @@ transition:.2s ease-in;
 	left:50%;
 	margin:0 auto;
 	background: #161616;
-		transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
 
 }
 .video-bar {
@@ -155,8 +155,8 @@ transition:.2s ease-in;
 	left: 50%;
 	transform:translate(-50%,-50%);
 	padding:8px;
-color:#898989;
-white-space: nowrap;
+	color:#898989;
+	white-space: nowrap;
 }
 .load-bar {
 	width:500px;
@@ -430,6 +430,16 @@ white-space: nowrap;
 			list-style: none;
 			font-size: 14px;
 			cursor: pointer;
+			-webkit-transition:.2s ease-out;
+			-moz-transition:.2s ease-out;
+			transition:.2s ease-out;
+		}
+		#mobile-nav li:hover {
+			color: #33B9FF;
+			cursor: pointer;
+			-webkit-transition:.2s ease-in;
+			-moz-transition:.2s ease-in;
+			transition:.2s ease-in;
 		}
 		.nav {
 			display: none;

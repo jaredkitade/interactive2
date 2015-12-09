@@ -22,6 +22,7 @@ h1 {
 	font-family:'Proxima N W01 Xbold';
 	font-weight: normal;
 	font-size: 16px;
+	color:#33B9FF;
 }
 .nav {
 	position: fixed;
@@ -118,7 +119,7 @@ h1 {
 	transition:.2s ease-out;
 }
 /*-------------------------------------------------------LOADING SCREEN---*/
-.video-screen {
+/*.video-screen {
 	height:500px;
 	width:800px;
 	position: absolute;
@@ -126,16 +127,26 @@ h1 {
 	left:50%;
 	transform:translate(-50%,-50%);
 	margin:0 auto;
-	background: #2a2a2a;
+	background: #161616;
 }
-.video-bar {
+*/.video-bar {
 	width:800px;
 	height:30px;
 	margin:0;
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	background: #3e3e3e;
+	top: 80%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+/*	background: #161616;
+*/	padding:8px;
+color:#898989;
+}
+.load-bar {
+	width:60%;
+	height: 2px;
+	background: #898989;
+	display: inline-block;
+	margin-bottom: 5px;
 }
 /*-------------------------------------------------------LOADING GIF---*/
 
@@ -196,13 +207,16 @@ h1 {
 	}
 }
 /*-------------------------------------------------------BUTTONS---*/
-
+.button {
+	display: inline-block;
+	margin-right: 10px;
+}
 #play {
 	display: inline-block;
 	width: 0;
 	height: 0;
 	border-top: 7.5px solid transparent;
-	border-left: 15px solid white;
+	border-left: 15px solid #898989;
 	border-bottom: 7.5px solid transparent;
 	-webkit-transition:.1s ease-out;
 	-moz-transition:.1s ease-out;
@@ -213,13 +227,14 @@ h1 {
 	-webkit-transition:.1s ease-in;
 	-moz-transition:.1s ease-in;
 	transition:.1s ease-in;
+	cursor: pointer;
 }
 #ff {
 	display: inline-block;
 	width: 0;
 	height: 0;
 	border-top: 7.5px solid transparent;
-	border-left: 7.5px solid white;
+	border-left: 7.5px solid #898989;
 	border-bottom: 7.5px solid transparent;
 	-webkit-transition:.1s ease-out;
 	-moz-transition:.1s ease-out;
@@ -234,6 +249,29 @@ h1 {
 	-webkit-transition:.1s ease-in;
 	-moz-transition:.1s ease-in;
 	transition:.1s ease-in;
+	cursor: pointer;
+}
+#rw {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 7.5px solid transparent;
+	border-right: 7.5px solid #898989;
+	border-bottom: 7.5px solid transparent;
+	-webkit-transition:.1s ease-out;
+	-moz-transition:.1s ease-out;
+	transition:.1s ease-out;
+}
+#rw-container {
+	display: inline-block;
+}
+#rw:hover,
+#rw-container:hover #rw {
+	border-right: 7.5px solid #33B9FF;
+	-webkit-transition:.1s ease-in;
+	-moz-transition:.1s ease-in;
+	transition:.1s ease-in;
+	cursor: pointer;
 }
 
 #mobile-nav-button {
